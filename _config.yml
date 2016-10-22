@@ -20,6 +20,7 @@ description: > # this means to ignore newlines until "baseurl:"
   utilizados en la cátedra de Base de Datos de la Universidad Nacional de La Matanza.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://bdd-unlam.github.io" # the base hostname & protocol for your site
+lang: es
 
 # Build settings
 markdown: kramdown
