@@ -25,7 +25,7 @@ num  | value
  5 | zzz 
  
  
-### Producto Cartesiano 
+## Producto Cartesiano 
 
 {% highlight sql %}
 SELECT * FROM t1 CROSS JOIN t2;
@@ -64,7 +64,7 @@ SELECT * FROM t1 JOIN t2 ON t1.num = t2.num;
 
 (2 rows) 
 
-### Junta por campos relacionados II ( USING) 
+## Junta por campos relacionados II ( USING) 
  
 {% highlight sql %}
 SELECT * FROM t1 INNER JOIN t2 USING (num); 
@@ -81,7 +81,7 @@ SELECT * FROM t1 JOIN t2 USING (num);
 
 (2 rows) 
 
-### Junta por campos relacionados III ( NATURAL) 
+## Junta por campos relacionados III ( NATURAL) 
  
 {% highlight sql %}
 SELECT * FROM t1 NATURAL INNER JOIN t2; 
@@ -98,7 +98,7 @@ SELECT * FROM t1 NATURAL JOIN t2;
 
 (2 rows) 
 
-### Junta manteniendo todos los registros de la tabla izquierda 
+## Junta manteniendo todos los registros de la tabla izquierda 
  
 {% highlight sql %}
 SELECT * FROM t1 LEFT JOIN t2 ON t1.num = t2.num;
@@ -112,7 +112,7 @@ SELECT * FROM t1 LEFT JOIN t2 ON t1.num = t2.num;
 
 (3 rows) 
  
-### Junta manteniendo todos los registros de la tabla izquierda y usando el USING 
+## Junta manteniendo todos los registros de la tabla izquierda y usando el USING 
  
  
 {% highlight sql %}
@@ -125,7 +125,7 @@ SELECT * FROM t1 LEFT JOIN t2 USING	(num);
 2	| b    |        | <­ Tiene valores para t1 y no para t2 
 3	| c    | yyy 
 
-### Junta manteniendo todos los registros de la tabla derecha 
+## Junta manteniendo todos los registros de la tabla derecha 
  
 {% highlight sql %}
 SELECT * FROM t1 RIGHT JOIN	t2 ON t1.num = t2.num;
@@ -137,7 +137,7 @@ SELECT * FROM t1 RIGHT JOIN	t2 ON t1.num = t2.num;
    3 | c    |   3 | yyy    |<­ Tiene valores para t2 y no para t1
       |      |   5 | zzz   |<­ Tiene valores para t2 y no para t1 
  
-### Junta completa. Todos los registros de la izquierda presentes. También los de la derecha 
+## Junta completa. Todos los registros de la izquierda presentes. También los de la derecha 
  
 {% highlight sql %}
 SELECT * FROM t1 FULL JOIN t2 ON t1.num = t2.num;
@@ -150,7 +150,7 @@ SELECT * FROM t1 FULL JOIN t2 ON t1.num = t2.num;
    3 | c    |   3 | yyy    |<­ Hay correspondencia entre ambas tablas 
      |      |   5 | zzz    |<­ Tiene valores para t2 y no para t1 (4 rows) 
  
-### Diferencias en poner una condición en el WHERE o en el JOIN 
+## Diferencias en poner una condición en el WHERE o en el JOIN 
  
 {% highlight sql %}
 SELECT * FROM t1 LEFT JOIN t2 ON t1.num = t2.num  
