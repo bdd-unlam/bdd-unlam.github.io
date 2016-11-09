@@ -14,13 +14,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: UNLaM - Cátedra de Base de Datos
-email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   En este sitio encontrarás documentación, apuntes y prácticas 
   utilizados en la cátedra de Base de Datos de la Universidad Nacional de La Matanza.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://bdd-unlam.github.io" # the base hostname & protocol for your site
 lang: es
+author: Departamento de Ingeniería e Investigaciones Tecnológicas
 
 # Build settings
 markdown: kramdown
