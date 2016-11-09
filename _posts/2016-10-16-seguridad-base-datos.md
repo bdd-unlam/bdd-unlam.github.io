@@ -3,6 +3,7 @@ layout: post
 title:  "Seguridad en las Bases de Datos"
 date:   2016-10-16 12:12:49 -0300
 categories: apuntes seguridad
+author: alf
 ---
 
 ## Introducción a la seguridad

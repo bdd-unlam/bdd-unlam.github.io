@@ -3,6 +3,7 @@ layout: post
 title:  "Hints en SQL Server"
 date:   2016-10-14 11:53:49 -0300
 categories: apuntes sql hints
+author: alf
 ---
 
 # Hints en SQL Server
