@@ -209,11 +209,11 @@ motores de base de datos.
 
 **Construcción de la línea básica para asignar permisos**
 
-![Construcción de la línea básica para asignar permisos](/images/construccion-linea-basica-asignar-permisos.png)
+![Construcción de la línea básica para asignar permisos](/images/seguridad/construccion-linea-basica-asignar-permisos.png)
 
 **Construcción de la línea básica para revocar permisos**
 
-![Construcción de la línea básica para revocar permisos](/images/construccion-linea-basica-revocar-permisos.png)
+![Construcción de la línea básica para revocar permisos](/images/seguridad/construccion-linea-basica-revocar-permisos.png)
 
 Veremos ahora algunos ejemplos de asignación de permisos.
 Para darle permisos al usuario `BDD1` sobre la tabla `tablaEj`. Con este permiso le
@@ -396,7 +396,7 @@ permiso, porque éste asignado hacia otro usuario.
 Veremos ahora, breves ejemplos que nos grafican las diferentes formas de proceder a la
 hora de tener estas alternativas.
 
-![Aplicación de permisos en cascada](/images/asignacion-permisos-cascada.png)
+![Aplicación de permisos en cascada](/images/seguridad/asignacion-permisos-cascada.png)
 
 ## Seguridad Multinivel
 
@@ -414,7 +414,7 @@ Generalmente, los niveles de seguridad suelen estar asociados a una etiqueta (o 
 inglés) que definirá cuan reservado es un valor de un campo en una tabla en un momento
 dado. Estas etiquetas suelen ser:
 
-![Seguridad Multinivel](/images/seguridad-multinivel.png)
+![Seguridad Multinivel](/images/seguridad/seguridad-multinivel.png)
 
 Claramente, estas etiquetas son propuestas típicas. Cada solución tiene la posibilidad de
 enmarcar sus propias etiquetas y su propio diseño de seguridad.
@@ -431,13 +431,13 @@ dato.
 
 **Representación de una tupla con etiquetas**
 
-![Representación de una tupla con etiquetas](/images/representacion-tuplas-etiquetas.png)
+![Representación de una tupla con etiquetas](/images/seguridad/representacion-tuplas-etiquetas.png)
 
 **Ejemplos**
 
-![Representación de una tupla con etiquetas](/images/ejemplo-representacion-tuplas-etiquetas.png)
+![Representación de una tupla con etiquetas](/images/seguridad/ejemplo-representacion-tuplas-etiquetas.png)
 
-![Representación de una tupla con etiquetas](/images/ejemplo2-representacion-tuplas-etiquetas.png)
+![Representación de una tupla con etiquetas](/images/seguridad/ejemplo2-representacion-tuplas-etiquetas.png)
 
 Como vemos, el conjunto de datos siempre es el mismo, pero según los permisos del
 usuario obtendrá más o menos información.
@@ -456,7 +456,7 @@ datos.
 
 **Veamos un ejemplo**
 
-![Ejemplo de SQL Injection](/images/ejemplo-sql-injection.png)
+![Ejemplo de SQL Injection](/images/seguridad/ejemplo-sql-injection.png)
 
 Como vemos, en el sistema, se tiene un cuadro de texto (o textbox) donde se pide ingresar
 un valor numérico. Este valor numérico se incluye en un texto que se ejecutará en la base de
