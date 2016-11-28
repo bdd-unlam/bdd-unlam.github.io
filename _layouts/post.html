@@ -15,7 +15,7 @@ layout: default
     {% if authors.size > 0 %}
       {% assign author = authors | join: ", " %}
     {% endif %}
-
+    
     <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ author }}</span></span>{% endif %}</p>
   </header>
 
@@ -27,3 +27,6 @@ layout: default
     {% include disqus_comments.html %}
   {% endif %}
 </article>
+<small>
+    {% include license_short.html %}
+</small>
