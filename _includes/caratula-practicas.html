@@ -15,27 +15,42 @@
     <div class="people-list">
         <span class="people-role">Jefe de Cátedra: </span>
         <ul>
-            <li>Ing. Verónica Ichazo</li>
+{% for item in site.data.people %}
+    {% assign person = item[1] %}
+    {% if person.role == 'jc' %}
+            <li>{{ person.title }} {{ person.name }}</li>
+    {% endif %}
+{% endfor %}
         </ul>
 
         <span class="people-role">Docentes a cargo de curso: </span>
         <ul>
-            <li>Ing. Alfonso Palomares</li>
-            <li>Ing. Natalia Crespo</li>
-            <li>Ing. Guillermo Giannotti</li>
-        </ul>
+{% for item in site.data.people %}
+    {% assign person = item[1] %}
+    {% if person.role == 'titular' %}
+            <li>{{ person.title }} {{ person.name }}</li>
+    {% endif %}
+{% endfor %}
+                        </ul>
 
         <span class="people-role">Docentes a cargo de la práctica: </span>
         <ul>
-            <li>Ing. Matías López</li>
-        </ul>
+{% for item in site.data.people %}
+    {% assign person = item[1] %}
+    {% if person.role == 'jtp' %}
+            <li>{{ person.title }} {{ person.name }}</li>
+    {% endif %}
+{% endfor %}
+                    </ul>
 
         <span class="people-role">Ayudantes: </span>
         <ul>
-            <li>Ezequiel Brizuela</li>
-            <li>Ing. Javier Rebagliatti</li>
-            <li>Ing. Sebastián Deuteris</li>
-            <li>Ing. Hernan Jalil</li>
+{% for item in site.data.people %}
+    {% assign person = item[1] %}
+    {% if person.role == 'ayudante' %}
+            <li>{{ person.title }} {{ person.name }}</li>
+    {% endif %}
+{% endfor %}
         </ul>
     </div>
 </div>
