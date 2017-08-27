@@ -2,7 +2,53 @@ alf:
     name: Alfonso Palomares
     gravatar: https://avatars.githubusercontent.com/u/8695964?v=3
     githubId: xxx
+    role: titular
+    title: Ing.
+fer:
+    name: Fernando Ybarra
+    gravatar: https://avatars.githubusercontent.com/u/8695964?v=3
+    githubId: xxx
+    role: ayudante
+    title: Ing.
+guille:
+    name: Guillermo Giannotti
+    gravatar: https://avatars.githubusercontent.com/u/8695964?v=3
+    githubId: xxx
+    role: titular
+    title: Ing.
+hernan:
+    name: Hernán Jalil
+    gravatar: https://avatars.githubusercontent.com/u/8695964?v=3
+    githubId: xxx
+    role: ayudante
+    title: Ing.
 javi:
     name: Javier Rebagliatti
     gravatar: https://avatars.githubusercontent.com/u/8695964?v=3
     githubId: jrebagliatti
+    role: ayudante
+    title: Ing.
+mati:
+    name: Matias López
+    gravatar: https://avatars.githubusercontent.com/u/8695964?v=3
+    githubId: xxx
+    role: jtp
+    title: Ing.
+nati:
+    name: Natalia Crespo
+    gravatar: https://avatars.githubusercontent.com/u/8695964?v=3
+    githubId: xxx
+    role: titular
+    title: Ing.
+seba:
+    name: Sebastían Deuteris
+    gravatar: https://avatars.githubusercontent.com/u/8695964?v=3
+    githubId: xxx
+    role: ayudante
+    title: Ing.
+vero:
+    name: Veronica Raquel
+    gravatar: https://avatars.githubusercontent.com/u/8695964?v=3
+    githubId: xxx
+    role: jc
+    title: Ing.

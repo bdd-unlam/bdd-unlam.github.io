@@ -1,0 +1,57 @@
+<div class="front-page">
+    
+    <h2>Universidad Nacional de la Matanza</h2>
+
+    <h3>Departamento de Ingeniería e Investigaciones Tecnológicas</h3>
+    
+    <h3>Ingeniería en Informática</h3>
+
+    <h1>Base de Datos</h1>
+    
+    <h2>{{page.title}}</h2>
+
+    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%Y" }}</time></p>   
+    
+    <div class="people-list">
+        <span class="people-role">Jefe de Cátedra: </span>
+        <ul>
+{% for item in site.data.people %}
+    {% assign person = item[1] %}
+    {% if person.role == 'jc' %}
+            <li>{{ person.title }} {{ person.name }}</li>
+    {% endif %}
+{% endfor %}
+        </ul>
+
+        <span class="people-role">Docentes a cargo de curso: </span>
+        <ul>
+{% for item in site.data.people %}
+    {% assign person = item[1] %}
+    {% if person.role == 'titular' %}
+            <li>{{ person.title }} {{ person.name }}</li>
+    {% endif %}
+{% endfor %}
+                        </ul>
+
+        <span class="people-role">Docentes a cargo de la práctica: </span>
+        <ul>
+{% for item in site.data.people %}
+    {% assign person = item[1] %}
+    {% if person.role == 'jtp' %}
+            <li>{{ person.title }} {{ person.name }}</li>
+    {% endif %}
+{% endfor %}
+                    </ul>
+
+        <span class="people-role">Ayudantes: </span>
+        <ul>
+{% for item in site.data.people %}
+    {% assign person = item[1] %}
+    {% if person.role == 'ayudante' %}
+            <li>{{ person.title }} {{ person.name }}</li>
+    {% endif %}
+{% endfor %}
+        </ul>
+    </div>
+</div>
+    
