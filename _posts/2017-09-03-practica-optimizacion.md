@@ -1,7 +1,7 @@
 ---
 layout: practica
 title:  "Práctica de Ejercicios Optimización de Consultas"
-date:   2017-09-02 21:26:49 -0300
+date:   2017-09-03 18:26:49 -0300
 categories: practica optimizacion consultas
 ---
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
