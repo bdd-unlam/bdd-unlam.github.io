@@ -5,6 +5,12 @@ date:   2017-09-02 21:26:49 -0300
 categories: practica sql
 ---
 
+Referencias:
+
+* <b>Clave Primaria​</b>, 
+* <u>Clave Foránea</u>, 
+* <b><u>Clave Primaria y Foránea al mismo tiempo</u></b>
+
 #### Ejercicio 1
 
 Dada la siguiente base de datos:
