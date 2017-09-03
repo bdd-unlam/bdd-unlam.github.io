@@ -141,8 +141,8 @@ Construir las siguientes consultas en álgebra relacional:
 <pre>
 Película (<b>CodPel</b>, Título, Duración, Año, <u>CodRubro</u>)
 Rubro    (<b>CodRubro</b>, NombRubro)
-Ejemplar (<b>CodEj</b>, <b>CodPel</b>, Estado, Ubicación) 
-          Estado: Libre, Ocupado
+Ejemplar (<b>CodEj</b>, <b><u>CodPel</u></b>, Estado, Ubicación) 
+          <b>Estado</b>: Libre, Ocupado
 Cliente  (<b>CodCli</b>, NyA, Direccion, Tel, Email)
 Préstamo (<b>CodPrest</b>, <u>CodEj</u>, <u>CodPel</u>, <u>CodCli</u>, FechaPrest, FechaDev)
 </pre>
