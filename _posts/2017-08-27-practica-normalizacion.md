@@ -13,7 +13,9 @@ Referencias:
 * <u>Clave Foránea</u>, 
 * <b><u>Clave Primaria y Foránea al mismo tiempo</u></b>
 
-#### 1. Dada la siguiente relación
+#### Ejercicio 1
+
+Dada la siguiente relación
 
 ```
 MiMusica (NombreAlbum, NombreArtista, Genero, NroTema,  NombreTema, Duracion, Discografica, Año)
@@ -24,7 +26,9 @@ Se pide: Identificar las Dependencias Funcionales, indicando todas las suposicio
 * Suponemos que no hay dos versiones del mismo tema en un mismo Álbum.
 * Cada Artista pertenece a un único Género.
 
-#### 2. Dada la siguiente relación 
+#### Ejercicio 2
+
+Dada la siguiente relación 
 
 ```
 Registro (NombreCurso, Profesor, Hora, Aula, Estudiante, Nota) 
@@ -40,43 +44,48 @@ Y las siguientes restricciones (dadas por las reglas del negocio):
 
 Se pide: Identificar las Dependencias Funcionales.
 
+#### Ejercicio 3
 
-#### 3. Dados la Relación R y el Conjunto F siguiente, demuestre que la dependencia funcional X → V pertenece a F+, utilizando los axiomas de Armstrong.
+Dados la Relación ``R`` y el Conjunto ``F`` siguiente, demuestre que la dependencia funcional ``X → V`` pertenece a ``F+``, utilizando los axiomas de Armstrong.
 
 ```
 R (X, Y, Z, W, V)
-F={ X → Y, XY → Z, Z → X, YZ → W, W → XY, W → V }
+F = { X → Y, XY → Z, Z → X, YZ → W, W → XY, W → V }
 ```
 
-#### 4. Sea la relación R y el conjunto de DF F dados, demostrar que las dependencias A → G, BC → E, AB → E y ADG → C pertenecen a F+, utilizando únicamente los axiomas de Armstrong
+#### Ejercicio 4
+
+Sea la relación ``R`` y el conjunto de DF ``F`` dados, demostrar que las dependencias ``A → G, BC → E, AB → E y ADG → C`` pertenecen a ``F+``, utilizando únicamente los axiomas de Armstrong
 
 ```
-R(A,B,C,D,E,G)  
+R (A,B,C,D,E,G)
 F = { AD → E, C → G, GE → C, A → C, BC → A, B → D }
 ```
 
-#### 5. Resuelva
+#### Ejercicio 5
 
 Dado ``R (A, B, C, D)`` con ``F = { AB → C, C → D, D → A }``
 
 Identifique **TODAS** las superclaves de ``R`` que no son claves candidatas.
 
-#### 6. Resuelva
+#### Ejercicio 6
 
 Demostrar cada una de los tres Axiomas de Armstrong (**_Reflexividad_**, **_Aumento_** y **_Transitividad_**) en base a la definición de Dependencia Funcional.
 
-
-#### 7. Resuelva
+#### Ejercicio 7
 
 Demostrar cada una de las tres reglas derivadas (**_Unión_**, **_Descomposición_** y **_Pseudotransitividad_**) en base a los axiomas de Armstrong.
 
-#### 8. Dado el siguiente esquema de relación: 
+#### Ejercicio 8
+
+Dado el siguiente esquema de relación: 
 
 ```
 R (ABCDEF)
 ```
 
 Se pide:
+
 Verifique formalmente si los siguientes conjuntos de dependencias funcionales son equivalentes:
 
 ```
@@ -87,7 +96,7 @@ F2 = { A → E, C → E, CE → F, E → FC, AF → B, AE → C, AFC → DE,
        D → C, FD → A, BE → D }
 ```
 
-#### 9. Resuelva
+#### Ejercicio 9
 
 Dado ``R (BDIOQS)`` con ``F = { S → D, I → B, IS → Q, B → O }``
 
@@ -97,7 +106,7 @@ Se pide:
 1. Si se descompone a ``R`` en ``R1(ISQD)`` y ``R2(IBO)``, diga si hubo pérdida de información. ¿En que forma normal se encuentra cada relación?
 1. Encontrar una descomposición de ``R`` en FNBC sin pérdida de información. ¿Se conservaron las dependencias funcionales?
 
-#### 10. Resuelva
+#### Ejercicio 10
 
 Dado ``R (ABCDEF)`` con ``F = { A → BC, B → C, C → A, AD → E, AE → F, CD → E}``
 
@@ -108,7 +117,7 @@ Se  pide:
 1. Decir en que forma normal se encuentra ``R``. ¿Porque?
 1. Descomponer a ``R`` en FNBC usando el algoritmo visto en clase.
 
-#### 11. Resuelva
+#### Ejercicio 11
 
 Dado ``R (ABCDE)`` con ``F = { A → BC, CD → E, B → D, E → A}``
 
@@ -119,7 +128,7 @@ Se pide:
 1. Encontrar una descomposición en FNBC.
 
 
-#### 12. Resuelva
+#### Ejercicio 12
 
 Dado ``R (ABCDEF)`` con ``F = { B → D, CF → A, DE → C, C → EF, F → D }``
 
@@ -130,9 +139,9 @@ Se pide:
 1. Hallar una descomposición en FNBC.
 
 
-#### 13. Resuelva
+#### Ejercicio 13
 
-Dado ``R(ABCDE)`` con ``F = { A → BC, BC → A, BCD → E, E → C }``
+Dado ``R (ABCDE)`` con ``F = { A → BC, BC → A, BCD → E, E → C }``
 
 Se pide:
 
@@ -141,9 +150,9 @@ Se pide:
 1. Hallar una descomposición en FNBC.
 
 
-#### 14. Resuelva
+#### Ejercicio 14
 
-Dado ``R(ABCD)`` con ``F = { AB → D, C → D, AB → C, C → B }``
+Dado ``R (ABCD)`` con ``F = { AB → D, C → D, AB → C, C → B }``
 
 Se pide:
 
@@ -152,34 +161,39 @@ Se pide:
 1. Encontrar una descomposición en FNBC. ¿Se conservan las dependencias?
 
 
-#### 15. Resuelva
+####  Ejercicio15
 
-Dado ``R(AOIVND)`` con ``F = { V → D, I → A, IV → N, A → O }``
+Dado ``R (AOIVND)`` con ``F = { V → D, I → A, IV → N, A → O }``
 
 Indique si hay pérdida de información si descompone a ``R`` en:
 
 1. ``R1(VD), R2(IA), R3(IVD), R4(AO)``
 1. ``R1(IVN), R2(IA), R3(VD), R4(IVO)``
 
-#### 16. Resuelva
+#### Ejercicio 16
 
-Dado ``R(ABCDE)`` con ``F = { AB → D, DE → B, A → C, BC → E }``
+Dado ``R (ABCDE)`` con ``F = { AB → D, DE → B, A → C, BC → E }``
 
 Utilice el Teorema de Heath para verificar si la siguiente descomposición es sin pérdida de información.
 
 ```
-R1(ABED), R2(ABC)
+R1 (ABED), 
+R2 (ABC)
 ```
 
 
-#### 17. Demuestre que cualquier relación de 2 elementos se encuentra en FNBC:
+#### Ejercicio 17
 
-Por ejemplo: ``R( A, B )``
+Demuestre que cualquier relación de 2 elementos se encuentra en FNBC:
 
-#### 18. Dado el siguiente esquema de relación: 
+Por ejemplo: ``R (A, B)``
+
+#### Ejercicio 18
+
+Dado el siguiente esquema de relación: 
 
 ```
-R(A, B, C, D, E, F)            
+R (A, B, C, D, E, F)            
 F = { AB → C, C → D, ABC → E, F → A, AB → FD, A → F }
 ```
 
@@ -187,10 +201,12 @@ F = { AB → C, C → D, ABC → E, F → A, AB → FD, A → F }
 1. Normalizar a 3 FN
 1. Justificar si hubo pérdida de información y/o pérdida de dependencias funcionales.
 
-#### 19. Dado el siguiente esquema de relación:
+#### Ejercicio 19
+
+Dado el siguiente esquema de relación:
 
 ```
-Encuesta(nroEncuesta, descEncuesta, cantMin, codTipoPoblacion, descTipoPobl, cantEncuestadaXpobl, fecha, DNIEncuestado, codMotivo)
+Encuesta (nroEncuesta, descEncuesta, cantMin, codTipoPoblacion, descTipoPobl, cantEncuestadaXpobl, fecha, DNIEncuestado, codMotivo)
 ```
 
 Y las siguientes restricciones:
@@ -203,11 +219,13 @@ Y las siguientes restricciones:
 
 Se pide:
 
-1. Indicar las dependencias funcionales del esquema Encuesta.
+1. Indicar las dependencias funcionales del esquema ``Encuesta``.
 1. Justificar en qué forma normal se encuentra la relación.
 1. Normalizar a FNBC en el caso que fuese necesario. Indicar si hubo pérdida de dependencias.
 
-#### 20. Dado el siguiente esquema de relación:
+#### Ejercicio 20
+
+Dado el siguiente esquema de relación:
 
 ```
 Reservas(ciudad, teatro, título)
@@ -229,20 +247,24 @@ Se pide:
 1. Descomponer Reservas para obtener un conjunto de esquemas de relación en 3FN.
 
 
-#### 21. Pasar a forma normal de Boyce-Codd y a tercera forma normal:
+#### Ejercicio 21
+
+Pasar a forma normal de Boyce-Codd y a tercera forma normal:
 
 ```
-R(A,B,C,D,E) con F = {AB → C, DE → C, B → D}
-R(A,B,C,D,E) con F = {A → B, C → D}
+R (A,B,C,D,E) con F = {AB → C, DE → C, B → D}
+R (A,B,C,D,E) con F = {A → B, C → D}
 ```
 
-#### 22. Indique en qué Forma Normal se encuentran cada uno de los siguientes esquemas:
+#### Ejercicio 22
+
+Indique en qué Forma Normal se encuentran cada uno de los siguientes esquemas:
 
 ```
-R1(ABCDEF)  F1={ AB → C, C → D, AB → E, F → A, A → F }
-R2(ABCDE)   F2={ E → D, C → E, B → E, AD → B }
-R3(ABCDE)   F3={ AB → D, DE → B, AB → C, BC → E }
-R4(PQM)	    F4={ PQ → M, P → Q }
-R5(XZWY)    F5={ }
-R6(STU)	    F6={ T → T, SU → U }
+R1 (ABCDEF)  F1={ AB → C, C → D, AB → E, F → A, A → F }
+R2 (ABCDE)   F2={ E → D, C → E, B → E, AD → B }
+R3 (ABCDE)   F3={ AB → D, DE → B, AB → C, BC → E }
+R4 (PQM)     F4={ PQ → M, P → Q }
+R5 (XZWY)    F5={ }
+R6 (STU)     F6={ T → T, SU → U }
 ```

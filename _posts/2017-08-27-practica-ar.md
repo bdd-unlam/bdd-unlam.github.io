@@ -23,7 +23,9 @@ Referencias:
 * Demostrar cuando ``R ⋈ S`` es equivalente a  ``R x S``
 
 
-#### 1. Dados los esquemas de relaciones 
+#### Ejercicio 1
+
+Dados los esquemas de relaciones 
 
 ```
 R(A,B)
@@ -58,12 +60,14 @@ Se pide obtener:
 1. \\(\mathsf{\sigma_{A="c"}(R \times S)}\\)
 
 
-#### 2. Dado el siguiente esquema relacional
+#### Ejercicio 2
+
+Dado el siguiente esquema relacional
 
 <pre>
-Alumno (<b>Dni</b>, nombre, apellido, dirección)
+Alumno  (<b>Dni</b>, nombre, apellido, dirección)
 Carrera (<b>codCarrera</b>, nombre)
-Cursa (<b><u>dni</u></b>, <b><u>codCarrera</u></b>)
+Cursa   (<b><u>dni</u></b>, <b><u>codCarrera</u></b>)
 </pre>
 
 Resolver: 
@@ -72,7 +76,7 @@ Resolver:
 1. Obtener los alumnos de nombre 'Nicolás'.
 1. Obtener los alumnos que **no cursan** 'Ingeniería'.
 
-#### 3. 
+#### Ejercicio 3 
 
 Dadas dos relaciones ``A`` y ``B`` con claves primarias <code>K<sub>A</sub></code> y <code>K<sub>B</sub></code>. Asumiendo que ``A`` y ``B`` tienen esquemas compatibles según se necesite, indicar la clave primaria para cada una de las relaciones resultantes siguientes:
 
@@ -84,7 +88,9 @@ Dadas dos relaciones ``A`` y ``B`` con claves primarias <code>K<sub>A</sub></cod
 1. \\(\mathsf{A - B}\\)
 1. \\(\mathsf{A ⋈ B}\\)
 
-#### 4. Dado el siguiente esquema relacional:
+#### Ejercicio 4
+
+Dado el siguiente esquema relacional:
 
 <pre>
 Almacén       (<b>Nro</b>, Responsable)
@@ -115,7 +121,9 @@ Realizar las siguientes consultas en Álgebra Relacional:
 1. Hallar el o los códigos de los artículos de mayor precio.
 1. Listar los números de almacenes que tienen todos los artículos que incluyen el material con código ``123``.
 
-#### 5. Dado el siguiente esquema relacional:
+#### Ejercicio 5
+
+Dado el siguiente esquema relacional:
 
 <pre>
 Vive      (<b><u>nombrePersona</u></b>, calle, ciudad)
@@ -136,7 +144,9 @@ Construir las siguientes consultas en álgebra relacional:
 1. Localizar las ciudades en las que todos los trabajadores que vienen en ellas ganan más de ``$1000``.
 1. Listar los primeros empleados que la compañía ``Sony`` contrató.
 
-#### 6. Dado el siguiente esquema de relación:
+#### Ejercicio 6
+
+Dado el siguiente esquema de relación:
 
 <pre>
 Película (<b>CodPel</b>, Título, Duración, Año, <u>CodRubro</u>)
@@ -157,7 +167,9 @@ Realizar las siguientes consultas en Álgebra Relacional:
 1. Listar los clientes que han realizado préstamos del título ``Rey León`` y ``Terminador 3`` (Ambos).
 1. Listar los clientes que hayan alquilado todas las películas del vídeo.
 
-#### 7. Dada la siguiente base de datos:
+#### Ejercicio 7
+
+Dada la siguiente base de datos:
 
 <pre>
 Proveedor(<b>NroProv</b>, NomProv, Categoria, CiudadProv)
@@ -178,7 +190,9 @@ Realizar las siguientes consultas en Álgebra Relacional:
 1. Hallar los nombres de los proveedores cuya categoría sea mayor que la de todos los proveedores que proveen el artículo ``cuaderno``.
 1. Hallar los clientes que han pedido dos o más artículos distintos.
 
-#### 8. Dados los siguientes esquemas de relación:
+#### Ejercicio 8
+
+Dados los siguientes esquemas de relación:
 
 <pre>
 Vuelo    (<b>NroVuelo</b>, Desde, Hasta)
@@ -196,7 +210,9 @@ Realizar las siguientes consultas:
 1. Hallar los pasajeros y números de vuelo para aquellos pasajeros que viajan desde ``A`` a ``D`` pasando por ``B``.
 1. Hallar los tipos de avión que pasan por ``C``.
 
-#### 9. Dada la siguiente base de datos relacional:
+#### Ejercicio 9
+
+Dada la siguiente base de datos relacional:
 
 <pre>
 Frecuenta (<b><u>nombrePersona</u></b>, <b><u>nombreBar</u></b>)
@@ -211,7 +227,9 @@ Usar el álgebra relacional para hallar las personas que:
 1. Frecuentan solamente los bares que sirven todas las cervezas que les gustan.
 1. Frecuentan solamente los bares que no sirven ninguna de las cervezas que no les gusta.
 
-#### 10. Dada la siguiente base de datos relacional:
+#### Ejercicio 10
+
+Dada la siguiente base de datos relacional:
 
 <pre>
 Persona    (<b>TipoDoc</b>, <b>NroDoc</b>, Nombre, Dirección, FechaNac, Sexo)
@@ -227,7 +245,9 @@ Realizar las siguientes consultas:
   * Su abuelo materno
   * Todos sus nietos
 
-#### 11. Dada la siguiente base de datos relacional:
+#### Ejercicio 11
+
+Dada la siguiente base de datos relacional:
 
 <pre>
 Alumno         (<b>legajo</b>, nombre, apellido, sexo, fechaNac, feIngreso)
@@ -249,7 +269,9 @@ Docente        (<b>id</b>, nombre, apellido)
 1. Muestre todos los datos de los alumnos que hayan rendido mal en mas de 1 ocasión ``Programación 3``.
 1. Identifique los alumnos que hayan aprobado todas las materias de una carrera.
 
-#### 12. Dada la siguiente base de datos relacional:
+#### Ejercicio 12
+
+Dada la siguiente base de datos relacional:
 
 <pre>
 ALUMNO      (<b>dni</b>, apellido, nombre, <u>codEscuela</u>)
@@ -264,7 +286,9 @@ ALMUERZA_EN (<b><u>dniAlumno</u></b>, <b><u>idAlimento</u></b>, <u>codEscuela</u
 1. Listar a los alumnos que asisten a escuelas donde no sirven alimentos y almuerzan en otro establecimiento.
 1. Mostrar todas las escuelas que sirven alimentos a todos sus alumnos que no tienen más de dos hermanos
 
-#### 13. Teniendo: 
+#### Ejercicio 13
+
+Teniendo: 
 
 <pre>
 R (<b>DNI</b>, nombre)

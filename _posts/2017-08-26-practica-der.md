@@ -7,7 +7,9 @@ categories: practica der
 
 ## Diagrama de Entidad Relación
 
-#### 1. Identificar las entidades con sus atributos y relaciones, según los siguientes requerimientos de información:
+#### Ejercicio 1
+
+Identificar las entidades con sus atributos y relaciones, según los siguientes requerimientos de información:
 
 “Soy el gerente de una empresa de capacitación que brinda cursos relacionados con la
 informática. Dictamos varios cursos, cada uno de los cuales tiene un código, un
@@ -22,7 +24,9 @@ hacen. ¡Mariana Carpovich de AT&T se anota en cada curso que ofrecemos!. Tambi�
 registramos el nombre y nro. telefónico de cada uno de nuestros alumnos. Algunos
 alumnos e instructores no nos dan sus nros. de teléfono.”
 
-#### 2. Identificar las entidades con sus atributos y relaciones, según los siguientes requerimientos de información:
+#### Ejercicio 2
+
+Identificar las entidades con sus atributos y relaciones, según los siguientes requerimientos de información:
 
 La Secretaría de Vivienda de la Provincia XXX desea almacenar información
 relacionada a los habitantes y las Viviendas donde residen los mismos.
@@ -36,7 +40,9 @@ terreno y la cantidad de metros cuadrados que se encuentran edificados. Respecto
 los Municipios, se desea almacenar su Nombre y el nombre y apellido del Intendente
 actual.
 
-#### 3. Identificar las entidades con sus atributos y relaciones, según los siguientes requerimientos de información:
+#### Ejercicio 3
+
+Identificar las entidades con sus atributos y relaciones, según los siguientes requerimientos de información:
 
 Los profesores de la cátedra de Administración 1 desean organizar sus listados,
 utilizando una base de datos relacional, por lo cual nos encargaron diseñar el DER
@@ -44,7 +50,9 @@ para administrar los datos básicos de los alumnos que cursan la materia este a�
 trabajos prácticos que entregan (solo habrá trabajos prácticos individuales) y las notas
 de los parciales (y recuperatorios) que rindan.
 
-#### 4. Identificar las entidades con sus atributos y relaciones, según los siguientes requerimientos de información:
+#### Ejercicio 4
+
+Identificar las entidades con sus atributos y relaciones, según los siguientes requerimientos de información:
 
 Los profesores de Administración 1 cambiaron de opinión y desean que se incluya la
 posibilidad de que los trabajos prácticos sean grupales (cada alumno pertenecerá a un
@@ -52,7 +60,9 @@ solo grupo durante todo el año). Y ahora habrá una nota grupal y una nota indi
 determinar por el profesor a cargo. Por lo tanto rediseñe el DER realizado para el
 enunciado ejercicio anterior para adaptarlo a esta nueva necesidad.
 
-#### 5. Realizar el Diagrama ER para la siguiente situación:
+#### Ejercicio 5
+
+Realizar el Diagrama ER para la siguiente situación:
 
 Una empresa ha definido dos tipos de empleados: contratados y efectivos. Para todos
 los empleados, almacenar su nro. de legajo, nombre, apellido y departamento en el
@@ -62,7 +72,9 @@ contratados, almacenar el precio que cobra por hora común y por hora extra, y l
 Consultora a la que pertenecen. De cada consultora es necesario saber su nro. de
 CUIT y su Razón Social.
 
-#### 6. Identificar las entidades con sus atributos y relaciones, según los siguientes requerimientos de información:
+#### Ejercicio 6
+
+Identificar las entidades con sus atributos y relaciones, según los siguientes requerimientos de información:
 
 Se desea diseñar una base de datos para almacenar las reservas de una empresa
 dedicada al alquiler de automóviles, teniendo en cuenta la siguiente información:
@@ -81,7 +93,9 @@ Todo coche tiene siempre asignado un determinado garaje y no puede cambiar. De
 cada Garaje deseamos almacenar su código y dirección. De cada vehículo se desea
 almacenar el número de patente, la marca, el modelo y color.
 
-#### 7. Identificar las entidades con sus atributos y relaciones, según los siguientes requerimientos de información:
+#### Ejercicio 7
+
+Identificar las entidades con sus atributos y relaciones, según los siguientes requerimientos de información:
 
 “Soy el dueño de un pequeño video club. Tenemos más de 3000 cintas sobre las
 cuales queremos llevar registro.
@@ -108,7 +122,9 @@ Por último, necesitamos registrar que cintas ha retirado cada cliente. Un clien
 llevarse muchas cintas al mismo tiempo. Sólo queremos registrar los alquileres
 actuales. No nos interesa llevar un registro histórico de los alquileres.”
 
-#### 8. Modificar el Diagrama ER del ejercicio 7 (Video Club) para ajustarlo a los siguientes requerimientos adicionales:
+#### Ejercicio 8
+
+Modificar el Diagrama ER del ejercicio 7 (Video Club) para ajustarlo a los siguientes requerimientos adicionales:
 
 “Ahora que lo pienso bien, sería bueno llevar un registro histórico de nuestros
 alquileres. Cada vez que un socio alquile una cinta, deberíamos guardar la fecha en
@@ -120,7 +136,9 @@ las devuelve tarde. También podríamos saber cuántas veces ha sido usada una c
 y luego sabríamos cuándo descartarla. También podríamos conocer las preferencias
 de nuestros socios.”
 
-#### 9. Modelizar la biblioteca de la universidad utilizando el Diagrama ER.
+#### Ejercicio 9
+
+Modelizar la biblioteca de la universidad utilizando el Diagrama ER.
 
 Existen dos tipos de usuario: sin carnet (sólo pueden realizar consultas en sala de
 lectura) y con carnet (pueden llevarse libros en préstamo hasta por una semana).
@@ -131,7 +149,9 @@ Un libro o revista puede tener varios ejemplares.
 Describir las entidades con sus correspondientes atributos, identificar las claves e
 interrelaciones con su clasificación.
 
-#### 10. Realizar un Diagrama ER para la siguiente situación:
+#### Ejercicio 10
+
+Realizar un Diagrama ER para la siguiente situación:
 
 En una línea de producción trabajan varios obreros. Cada obrero trabaja en una
 máquina de esa línea.
@@ -146,7 +166,9 @@ identifica, tipo, descripción y estado. Las maquinarias se pueden cambiar de l�
 reemplazar otras maquinarias por problemas y desperfectos. Si una máquina tiene
 dentro del mes menos de 10 días de servicio se la reemplaza por una nueva.
 
-#### 11. Realizar un Diagrama ER según el siguiente relevamiento.
+#### Ejercicio 11
+
+Realizar un Diagrama ER según el siguiente relevamiento.
 
 Actualmente trabajamos con una serie de fabricantes de muebles de cocina. De cada
 fabricante se desea almacenar un código, Razón Social, dirección y teléfono. Cada
@@ -177,7 +199,9 @@ teléfono y la cantidad de cocinas que ha instalado.
 Cada cocina puede comprarla un cliente y el mismo cliente puede comprar varias
 cocinas. De un cliente nos interesa almacenar su DNI, nombre, dirección y teléfono.
 
-#### 12. ​Realizar el Diagrama Entidad­Relación correspondientes al siguiente relevamiento:
+#### Ejercicio 12
+
+​Realizar el Diagrama Entidad­-Relación correspondientes al siguiente relevamiento:
 
 Un sistema está formado por un conjunto de programas que tienen una
 determinada frecuencia de ejecución.
@@ -193,12 +217,16 @@ mismo archivo puede ser usado por varios programas durante sus ejecuciones.
 A la Gerencia de Informática le interesa registrar el modo de acceso de cada
 archivo y la frecuencia para cada programa que se ejecute.
 
-#### 13. Aumente la complejidad del ejercicio anterior, suponiendo que:
+#### Ejercicio 13
+
+Aumente la complejidad del ejercicio anterior, suponiendo que:
 Cada usuario del sistema tiene acceso sólo a determinados sistemas, y dentro
 de ellos a determinados programas. La Gerencia necesita, por razones de
 seguridad, conocer los permisos de acceso de sus usuarios.
 
-#### 14. Realizar el Diagrama Entidad­Relación correspondientes al siguiente relevamiento:
+#### Ejercicio 14
+
+Realizar el Diagrama Entidad­-Relación correspondientes al siguiente relevamiento:
 
 En una carrera de ciencias informáticas de una determinada facultad existen tres
 especialidades. De las materias que se dictan, algunas son comunes entre las
@@ -217,7 +245,9 @@ Se necesita la siguiente información:
 * Listado de materias con aulas y horarios asignados.
 * Listado de profesores a cargo de la cátedra. (Jefes de cátedra)
 
-#### 15. Realizar un Diagrama ER para la siguiente situación:
+#### Ejercicio 15
+
+Realizar un Diagrama ER para la siguiente situación:
 
 “Nuestro Grupo de Usuarios MySQL de Argentina ha crecido enormemente en este
 ultimo tiempo. Somos una organización conformada enteramente por voluntarios, y
@@ -265,16 +295,21 @@ También queremos saber en qué áreas de aplicación está interesado cada miem
 Por ejemplo, contabilidad, recursos humanos, petróleo y gas, telecomunicaciones,
 sistemas de salud, etc.”
 
-#### 16. En el DER del ejercicio 12 (grupo de usuarios MySQL) hay una relación N­N
-entre los Miembros y sus Plataformas. Revise esa relación según los siguientes
+#### Ejercicio 16
+
+En el DER del ejercicio 12 (grupo de usuarios ``MySQL``) hay una relación N­-N
+entre los ``Miembros`` y sus ``Plataformas``. Revise esa relación según los siguientes
 requerimientos corregidos:
+
 “En realidad, no necesitamos saber qué plataforma usa cada miembro. Lo que
 verdaderamente nos interesa es saber qué productos MySQL (Database Server,
 MySQL Control Center, MySQL Administrator, MaxDB, etc.) usa cada miembro y sobre
 cuál plataforma los usan. No nos interesa saber el nro. de versión de cada producto,
 sólo el nombre.”
 
-#### 17. Realizar un Diagrama ER según el siguiente relevamiento.
+#### Ejercicio 17
+
+Realizar un Diagrama ER según el siguiente relevamiento.
 
 En el grupo “Holding Bank”, se ha decidido realizar un sistema que permita almacenar
 los datos de las ART que poseen los trabajadores de las diferentes empresas que
@@ -296,7 +331,9 @@ pertenezca actualmente y dicho puesto posee una clasificación de riesgo: Bajo, 
 o Alto. Esto permitirá clasificar el tipo de ART que se necesite contratar. Todo nuestros
 trabajadores deben poseer una ART.
 
-#### 18. Realizar un Diagrama ER según el siguiente relevamiento.
+#### Ejercicio 18
+
+Realizar un Diagrama ER según el siguiente relevamiento.
 
 La empresa "Mi Stock SA" necesita registrar las compras que realizan los diversos
 clientes en la empresa.
@@ -322,7 +359,9 @@ origen y el país de distribución.
 De los proveedores, también se almacenará la Razón social, CUIT y datos
 correspondientes al domicilio.
 
-#### 19. Realizar un Diagrama ER según el siguiente relevamiento.
+#### Ejercicio 19
+
+Realizar un Diagrama ER según el siguiente relevamiento.
 
 “El departamento de formación de nuestra empresa desea construir una base de datos
 para planificar y gestionar la formación de sus empleados.
@@ -346,7 +385,9 @@ capacitado para impartir o no, cursos y la cantidad de horas que posee como doce
 Un mismo empleado puede ser docente en una edición de un curso y alumno en otra
 edición pero nunca ambas cosas a la vez.”
 
-#### 20. Realizar un Diagrama ER según el siguiente relevamiento.
+#### Ejercicio 20
+
+Realizar un Diagrama ER según el siguiente relevamiento.
 
 Una aerolínea maneja información de pasajeros, vuelos y personal. Para los pasajeros
 se considera de interés el pasaporte y el vuelo. Para los vuelos: el nro. de vuelo,
@@ -355,7 +396,9 @@ aviones se considera modelo, fabricante, capacidad, hangar. Por último para el
 personal se tiene en cuenta el nombre y apellido, área asignada, y en particular para
 los pilotos se conoce la cantidad de horas de vuelo y el tipo de avión que pilotea.
 
-#### 21. Realizar un Diagrama ER según el siguiente relevamiento.
+#### Ejercicio 21
+
+Realizar un Diagrama ER según el siguiente relevamiento.
 
 Un Club social y deportivo desea automatizar la gestión sobre sus socios.
 Existen 4800 socios de diferentes edades y categorías de los cuales se lleva el
@@ -383,7 +426,9 @@ La comisión del Club desea la siguiente información:
 * ­Listado de socios por antigüedad y categoría
 ­* Listado de socios dados de baja en determinada fecha.
 
-#### 22. Aumente la complejidad del ejercicio anterior suponiendo lo siguiente:
+#### Ejercicio 22
+
+Aumente la complejidad del ejercicio anterior suponiendo lo siguiente:
 
 La comisión del Club desea mantener información sobre las actividades que el socio
 realiza en la Institución:
@@ -400,7 +445,10 @@ Cada uno de los profesores, de los cuales se desea registrar sus datos personale
 está asignado a un sólo deporte, aunque un mismo deporte puede practicarse con
 hasta dos profesores distintos.
 
-#### 23. Realizar un Diagrama ER según el siguiente relevamiento.
+#### Ejercicio 23
+
+Realizar un Diagrama ER según el siguiente relevamiento.
+
 “Soy Carlos Acosta de Cruceros Atlantis. Hemos decidido que nuestro sistema manual
 de registro de pasajeros colapsará cuando incorporemos nuestra nueva embarcación.
 Pasaremos a tener dos embarcaciones y esperamos expandirnos a 5 o 6 en el año 2005. Cada embarcación tiene un nombre, una matrícula y una capacidad
@@ -433,7 +481,9 @@ pasajero desee compartirla con alguien más.
 Luego de que los pasajeros hayan efectuado su reserva y nosotros hayamos recibido
 su depósito, procedemos a pagarle la comisión al agente de viajes que hizo la venta.”
 
-#### 24. ​Diseñar una base de datos para “Good Bye Tours”, una empresa de viajes y turismo, utilizando el Modelo ER. 
+#### Ejercicio 24
+
+​Diseñar una base de datos para “Good Bye Tours”, una empresa de viajes y turismo, utilizando el Modelo ER. 
 
 Del análisis de requerimientos de ha determinado lo siguiente:
 
@@ -456,7 +506,9 @@ programado en varios contingentes en fechas diferentes.
 * Cada paquete pertenece a un único operador.
 * Cada pasajero participa a lo sumo de un contingente.
 
-#### 25. Diseñar una base de datos, utilizando el Diagrama ER, para el Instituto KCC, de enseñanza de computación, con el fin de sistematizar sus actividades académicas. 
+#### Ejercicio 25
+
+Diseñar una base de datos, utilizando el Diagrama ER, para el Instituto KCC, de enseñanza de computación, con el fin de sistematizar sus actividades académicas. 
 
 Del análisis de requerimientos de obtuvo lo siguiente:
 * Un curso se caracteriza por una sigla de 4 letras, nombre, fecha de inicio, duración,
@@ -472,7 +524,9 @@ puede tener varios cargos y un curso puede tener asignados varios cargos.
 para el mismo curso (uno por cada clase semanal).
 * Los alumnos pueden inscribirse en varios cursos.
 
-#### 26. Realizar un Diagrama ER según el siguiente relevamiento.
+#### Ejercicio 26
+
+Realizar un Diagrama ER según el siguiente relevamiento.
 
 Una fábrica de aparatos de televisión desea automatizar el sector de stock y el sector
 ventas.
@@ -500,7 +554,10 @@ a domicilio.
 
 Se necesita emitir un listado con el total de las ventas realizadas por cliente.
 
-#### 27. Realizar un Diagrama ER según el siguiente relevamiento.
+#### Ejercicio 27
+
+Realizar un Diagrama ER según el siguiente relevamiento.
+
 En una biblioteca se desea implantar un sistema de bases de datos.
 
 La biblioteca cuenta con aproximadamente 10000 volúmenes y de varios de ellos
@@ -530,9 +587,12 @@ Se desea responder a las siguientes consultas:
 * ­Dado un tema, mencionar todos los libros existentes, ordenados por autor
 ­* Dado un título, encontrar su ubicación (estantería y estante)
 
-#### 28. Aumente la complejidad del ejercicio anterior suponiendo lo siguiente:
+#### Ejercicio 28
+
+Aumente la complejidad del ejercicio anterior suponiendo lo siguiente:
 
 La biblioteca cuenta con un registro de socios que posee los siguientes datos:
+
 * ­Número de socio
 ­* Nombre y apellido
 ­* Dirección
@@ -543,11 +603,14 @@ Se registran además los préstamos de los libros a los socios, y los pagos real
 
 No se prestan libros a no socios ni a socios que no estén al día con los pagos.
 Se necesita lo siguiente:
+
 *­ Listado de socios morosos (por pagos)
 * ­Listado de socios morosos (por libros no devueltos en fecha)
 * ­Listado de libros prestados con su fecha.
 
-#### 29. Realizar un Diagrama ER según el siguiente relevamiento.
+#### Ejercicio 29
+
+Realizar un Diagrama ER según el siguiente relevamiento.
 
 “Se desea confeccionar un nuevo sistema para poder almacenar las llamadas que
 recibe el Call Center de la empresa “Compre YA S.A.”. Los llamados pueden
@@ -585,7 +648,9 @@ operador podrá atender una llamada, pero sólo a los operadores Senior se le po
 derivar los reclamos para que luego realicen el seguimiento. Existen operadores
 coordinadores, los cuales poseen un grupo de operadores a su cargo.”
 
-#### 30. Realizar un Diagrama ER según el siguiente relevamiento.
+#### Ejercicio 30
+
+Realizar un Diagrama ER según el siguiente relevamiento.
 
 “La Secretaría de Energía desea almacenar información del servicio de energía
 eléctrica del país. Existen productores básicos de electricidad que se identifican por un
@@ -634,7 +699,9 @@ En cada zona de servicio se desea registrar el consumo medio y el número de
 consumidores finales de cada una de las siguientes categorías: Particulares, empresas
 e instituciones”
 
-#### 31. Realizar un Diagrama ER según el siguiente relevamiento.
+#### Ejercicio 31
+
+Realizar un Diagrama ER según el siguiente relevamiento.
 
 “Una empresa decide crear un único entorno de ejecución que controle la seguridad de
 acceso para todas sus aplicaciones informáticas. Para ello considera conveniente
@@ -674,7 +741,9 @@ Las acciones pueden ser de dos tipos, de función y de llamada. Las acciones de
 función ejecutan una función interna del propio entorno (de la que se ha de almacenar
 el nombre). Las acciones de llamada invocan una única ventana.”
 
-#### 32. Realizar el Diagrama ER de acuerdo a la siguiente información
+#### Ejercicio 32
+
+Realizar el Diagrama ER de acuerdo a la siguiente información
 
 Una compañía aseguradora de tipo Sanitario desea diseñar una BD para informatizar
 parte de su gestión Hospitalaria. Para esta primera etapa se obtuvo el siguiente
