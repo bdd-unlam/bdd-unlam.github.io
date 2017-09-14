@@ -2,7 +2,7 @@
 layout: practica
 title:  "Práctica de Ejercicios Dependencias Funcionales"
 date:   2017-08-27 12:53:49 -0300
-categories: practica normalizacion
+categories: practicas normalizacion
 ---
 
 ## Normalización - Formas Normales - Algoritmos

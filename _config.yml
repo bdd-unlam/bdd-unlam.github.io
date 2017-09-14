@@ -21,6 +21,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://bdd-unlam.github.io" # the base hostname & protocol for your site
 lang: es
 author: Departamento de Ingeniería e Investigaciones Tecnológicas
+permalink: /:categories/:title.html
 
 # Build settings
 markdown: kramdown

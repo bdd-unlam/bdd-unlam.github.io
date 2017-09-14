@@ -2,7 +2,7 @@
 layout: practica
 title:  "Práctica de Ejercicios DER"
 date:   2017-08-26 09:30:49 -0300
-categories: practica der
+categories: practicas der
 ---
 
 ## Diagrama de Entidad Relación

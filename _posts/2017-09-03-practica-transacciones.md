@@ -2,7 +2,7 @@
 layout: practica
 title:  "Práctica de Ejercicios Transacciones"
 date:   2017-09-03 20:22:49 -0300
-categories: practica transacciones
+categories: practicas transacciones
 ---
 
 #### Ejercicio 1

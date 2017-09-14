@@ -2,7 +2,7 @@
 layout: practica
 title:  "Práctica de Ejercicios MR"
 date:   2017-08-26 15:22:49 -0300
-categories: practica mr
+categories: practicas mr
 ---
 
 ## Modelo Relacional

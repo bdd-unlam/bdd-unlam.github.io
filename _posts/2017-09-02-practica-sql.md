@@ -2,7 +2,7 @@
 layout: practica
 title:  "Práctica de Ejercicios SQL"
 date:   2017-09-02 21:26:49 -0300
-categories: practica sql
+categories: practicas sql
 ---
 
 Referencias:

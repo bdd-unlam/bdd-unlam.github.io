@@ -2,7 +2,7 @@
 layout: practica
 title:  "Práctica de Ejercicios Seguridad"
 date:   2017-09-03 20:22:49 -0300
-categories: practica seguridad
+categories: practicas seguridad
 ---
 
 Referencias:
