@@ -3,6 +3,7 @@ layout: practica
 title:  "Práctica de Ejercicios Álgebra Relacional"
 date:   2017-08-27 14:26:49 -0300
 categories: practicas ar
+type: post
 ---
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 

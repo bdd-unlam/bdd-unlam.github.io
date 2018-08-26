@@ -4,6 +4,7 @@ title:  "Distintos tipos de Juntas (JOINs) y sus  resultados"
 date:   2016-10-22 11:53:49 -0300
 categories: apuntes sql juntas
 author: alf
+type: draft
 ---
 
 ## Conjuntos Iniciales 

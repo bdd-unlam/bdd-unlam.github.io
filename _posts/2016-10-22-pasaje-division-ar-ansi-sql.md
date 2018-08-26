@@ -4,6 +4,7 @@ title:  "Pasaje del operador división de AR a ansi SQL"
 date:   2016-10-22 11:53:49 -0300
 categories: apuntes sql ar cociente
 author: alf
+type: draft
 ---
 
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
