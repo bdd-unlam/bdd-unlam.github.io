@@ -1,0 +1,44 @@
+[
+    {
+        "title": "Ejercicio 1",
+        "description": "Obtener los productos que se encuentran disponibles en todos los colores",
+        "tables": [
+            {
+                "tableName": "Product",
+                "definitionFile": "Product.csv"
+            },
+            {
+                "tableName": "ProductColorAvailability",
+                "definitionFile": "ProductColorAvailability.csv"
+            },
+            {
+                "tableName": "Color",
+                "definitionFile": "Color.csv"
+            }
+        ],
+        "expectedResults": [
+            {
+                "ProductId": "2"
+            }
+        ]
+    },
+    {
+        "title": "Ejercicio 2",
+        "description": "Obtener la lista de las personas y su genero",
+        "tables": [
+            {
+                "tableName": "Person",
+                "definitionFile": "Person.csv"
+            },
+            {
+                "tableName": "Gender",
+                "definitionFile": "Gender.csv"
+            }
+        ],
+        "expectedResults": [
+            {
+                "ProductId": "2"
+            }
+        ]
+    }
+]
