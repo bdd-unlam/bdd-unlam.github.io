@@ -1,73 +1,65 @@
 [
     {
         "title": "Ejercicio 1",
-        "description": "",
-        "tables": [
-            {
-                "tableName": "Producto",
-                "definitionFile": "Producto.csv"
-            },
-            {
-                "tableName": "DisponiblidadColor",
-                "definitionFile": "DisponiblidadColor.csv"
-            },
-            {
-                "tableName": "Color",
-                "definitionFile": "Color.csv"
-            }
-        ],
-        "statements": [
-            {
-                "title": "Obtener una lista de todos los colores",
-                "description": "",
-                "expectedResults": {
-                    "columns": ["IdColor", "NombreColor"],
-                    "values": [
-                        ["R", "Rojo"],
-                        ["B", "Azul"],
-                        ["O", "Naranja"],
-                        ["W", "Blanco"]
-                    ]
-                }
-            },
-            {
-                "title": "Obtener los productos que se encuentran disponibles en todos los colores",
-                "description": "",
-                "expectedResults": {
-                    "columns": ["IdProducto"],
-                    "values": [
-                        ["2"]
-                    ]
-                }
-            }
-        ]
-    },
-    {
-        "title": "Ejercicio 2",
         "tables": [
             {
                 "tableName": "Persona",
-                "definitionFile": "Persona.csv"
+                "definitionFile": "Persona.2.csv"
             },
             {
-                "tableName": "Genero",
-                "definitionFile": "Genero.csv"
+                "tableName": "Alumno",
+                "definitionFile": "Alumno.csv"
+            },
+            {
+                "tableName": "Tema",
+                "definitionFile": "Tema.csv"
+            },
+            {
+                "tableName": "Contenido",
+                "definitionFile": "Contenido.csv"
+            },
+            {
+                "tableName": "Cursada",
+                "definitionFile": "Cursada.csv"
+            },
+            {
+                "tableName": "Docente",
+                "definitionFile": "Docente.csv"
+            },
+            {
+                "tableName": "Materia",
+                "definitionFile": "Materia.csv"
             }
         ],
         "statements": [
             {
-                "title": "Obtener una lista de las personas con su genero",
+                "title": "a. Liste los temas repetidos en por lo menos 3 materias",
                 "description": "",
                 "expectedResults": {
-                    "columns": ["IdPesrona", "NombrePersona","DescripcionGenero"],
+                    "columns": ["nro", "descripcion"],
                     "values": [
-                        ["1", "Juan","Masculino"],
-                        ["2", "Maximo","Masculino"],
-                        ["3", "Sofia","Femenino"],
-                        ["4", "Maria","Femenino"]
+                        ["0", "Introduccion General"],
+                        ["1", "Elementos de la Matematica"],
+                        ["2", "Algebra de Boole"]
+                    ]
+                }
+            },
+            {
+                "title": "b. Liste los alumnos que cursan materias con contenidos repetidos en por lo menos 3 materias",
+                "description": "",
+                "expectedResults": {
+                    "columns": ["dni", "nombre","apellido"],
+                    "values": [
+                        ["1", "Eddard", "Stark"],
+                        ["2", "Robert","Baratheon"],
+                        ["5", "Jorah","Mormont"],
+                        ["6", "Jon","Snow"],
+                        ["9", "Catelyn","Stark"],
+                        ["10", "Aria","Stark"],
+                        ["11", "Robb","Stark"]
                     ]
                 }
             }
         ]
     }
-    ]
+]
