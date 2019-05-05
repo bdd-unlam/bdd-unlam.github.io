@@ -21,7 +21,7 @@
         ],
         "statements": [
             {
-                "title": "x. Devuelva el nombre de las personas mayores de 20 años.",
+                "title": "a. Devuelva el nombre de las personas mayores de 20 años.",
                 "description": "",
                 "expectedResults": {
                     "columns": ["name"],
@@ -36,7 +36,7 @@
                 }
             },
             {
-                "title": "x. Devuelva el nombre de todas las pizzerías.",
+                "title": "b. Devuelva el nombre de todas las pizzerías.",
                 "description": "",
                 "expectedResults": {
                     "columns": ["pizzeria"],
@@ -51,7 +51,7 @@
                 }
             },
             {
-                "title": "x. Encuentre todas las pizzas comidas por al menos una mujer de mas de 20 años.",
+                "title": "c. Encuentre todas las pizzas comidas por al menos una mujer de mas de 20 años.",
                 "description": "",
                 "expectedResults": {
                     "columns": ["pizza"],
@@ -63,7 +63,7 @@
                 }
             },
             {
-                "title": "x. Devuelva los nombres de todas las mujeres que comen al menos una pizza servida por Straw Hat. (Nota: La pizza no necesariamente tiene que haberse comido en Straw Hat).",
+                "title": "d. Devuelva los nombres de todas las mujeres que comen al menos una pizza servida por Straw Hat. (Nota: La pizza no necesariamente tiene que haberse comido en Straw Hat).",
                 "description": "",
                 "expectedResults": {
                     "columns": ["name"],
@@ -74,7 +74,7 @@
                 }
             },
             {
-                "title": "x. Devuelva todas las pizzerias que sirven al menos una pizza por menos de $10 que Amy o Fay (o ambas) comen.",
+                "title": "e. Devuelva todas las pizzerias que sirven al menos una pizza por menos de $10 que Amy o Fay (o ambas) comen.",
                 "description": "",
                 "expectedResults": {
                     "columns": ["pizzeria"],
@@ -86,7 +86,7 @@
                 }
             },
             {
-                "title": "x. Encuentre todas las pizzerias que sirven al menos una pizza por menos de $10 que ambas Amy y Fay comen.",
+                "title": "f. Encuentre todas las pizzerias que sirven al menos una pizza por menos de $10 que ambas Amy y Fay comen.",
                 "description": "",
                 "expectedResults": {
                     "columns": ["pizzeria"],
@@ -96,7 +96,7 @@
                 }
             },
             {
-                "title": "x. Encuentre los nombre de todas las personas que comen al menos una pizza servida por Dominos pero que no frecuentan Dominos.",
+                "title": "g. Encuentre los nombre de todas las personas que comen al menos una pizza servida por Dominos pero que no frecuentan Dominos.",
                 "description": "",
                 "expectedResults": {
                     "columns": ["name"],
@@ -110,7 +110,7 @@
                 }
             },
             {
-                "title": "x. Encuentre todas las pizzas que se comen solo por personas menores de 24 años, o que cuestan menos de $10 en todas los lugares donde se sirve.",
+                "title": "h. Encuentre todas las pizzas que se comen solo por personas menores de 24 años, o que cuestan menos de $10 en todas los lugares donde se sirve.",
                 "description": "",
                 "expectedResults": {
                     "columns": ["pizza"],
@@ -122,7 +122,7 @@
                 }
             },
             {
-                "title": "x. Devuelva la edad de la/s persona/s mas vieja/s que come/n pizza de hongos (mushroom).",
+                "title": "i. Devuelva la edad de la/s persona/s mas vieja/s que come/n pizza de hongos (mushroom).",
                 "description": "",
                 "expectedResults": {
                     "columns": ["age"],
@@ -132,7 +132,7 @@
                 }
             },
             {
-                "title": "x. Devuelva las pizzerias que sirven todas las pizzas que comen las personas mayores de 30.",
+                "title": "j. Devuelva las pizzerias que sirven todas las pizzas que comen las personas mayores de 30.",
                 "description": "",
                 "expectedResults": {
                     "columns": ["pizzeria"],
