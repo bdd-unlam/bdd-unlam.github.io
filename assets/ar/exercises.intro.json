@@ -1,0 +1,148 @@
+[
+    {
+        "title": "Ejercicio 1",
+        "tables": [
+            {
+                "tableName": "Persona",
+                "definitionFile": "Intro.Person.csv"
+            },
+            {
+                "tableName": "Frecuenta",
+                "definitionFile": "Intro.Frequents.csv"
+            },
+            {
+                "tableName": "Come",
+                "definitionFile": "Intro.Eats.csv"
+            },
+            {
+                "tableName": "Sirve",
+                "definitionFile": "Intro.Serves.csv"
+            }
+        ],
+        "statements": [
+            {
+                "title": "x. Devuelva el nombre de las personas mayores de 20 años.",
+                "description": "",
+                "expectedResults": {
+                    "columns": ["name"],
+                    "values": [
+                        ["Ben"],
+                        ["Cal"],
+                        ["Eli"],
+                        ["Fay"],
+                        ["Gus"],
+                        ["Hil"]
+                    ]
+                }
+            },
+            {
+                "title": "x. Devuelva el nombre de todas las pizzerías.",
+                "description": "",
+                "expectedResults": {
+                    "columns": ["pizzeria"],
+                    "values": [
+                        ["Chicago Pizza"],
+                        ["Dominos"],
+                        ["Little Caesars"],
+                        ["New York Pizza"],
+                        ["Pizza Hut"],
+                        ["Straw Hat"]
+                    ]
+                }
+            },
+            {
+                "title": "x. Encuentre todas las pizzas comidas por al menos una mujer de mas de 20 años.",
+                "description": "",
+                "expectedResults": {
+                    "columns": ["pizza"],
+                    "values": [
+                        ["mushroom"],
+                        ["cheese"],
+                        ["supreme"]
+                    ]
+                }
+            },
+            {
+                "title": "x. Devuelva los nombres de todas las mujeres que comen al menos una pizza servida por Straw Hat. (Nota: La pizza no necesariamente tiene que haberse comido en Straw Hat).",
+                "description": "",
+                "expectedResults": {
+                    "columns": ["name"],
+                    "values": [
+                        ["Amy"],
+                        ["Hil"]
+                    ]
+                }
+            },
+            {
+                "title": "x. Devuelva todas las pizzerias que sirven al menos una pizza por menos de $10 que Amy o Fay (o ambas) comen.",
+                "description": "",
+                "expectedResults": {
+                    "columns": ["pizzeria"],
+                    "values": [
+                        ["Little Caesars"],
+                        ["New York Pizza"],
+                        ["Straw Hat"]
+                    ]
+                }
+            },
+            {
+                "title": "x. Encuentre todas las pizzerias que sirven al menos una pizza por menos de $10 que ambas Amy y Fay comen.",
+                "description": "",
+                "expectedResults": {
+                    "columns": ["pizzeria"],
+                    "values": [
+                        ["Little Caesars"]
+                    ]
+                }
+            },
+            {
+                "title": "x. Encuentre los nombre de todas las personas que comen al menos una pizza servida por Dominos pero que no frecuentan Dominos.",
+                "description": "",
+                "expectedResults": {
+                    "columns": ["name"],
+                    "values": [
+                        ["Amy"],
+                        ["Ben"],
+                        ["Dan"],
+                        ["Eli"],
+                        ["Gus"]
+                    ]
+                }
+            },
+            {
+                "title": "x. Encuentre todas las pizzas que se comen solo por personas menores de 24 años, o que cuestan menos de $10 en todas los lugares donde se sirve.",
+                "description": "",
+                "expectedResults": {
+                    "columns": ["pizza"],
+                    "values": [
+                        ["cheese"],
+                        ["pepperoni"],
+                        ["sausage"]
+                    ]
+                }
+            },
+            {
+                "title": "x. Devuelva la edad de la/s persona/s mas vieja/s que come/n pizza de hongos (mushroom).",
+                "description": "",
+                "expectedResults": {
+                    "columns": ["age"],
+                    "values": [
+                        ["24"]
+                    ]
+                }
+            },
+            {
+                "title": "x. Devuelva las pizzerias que sirven todas las pizzas que comen las personas mayores de 30.",
+                "description": "",
+                "expectedResults": {
+                    "columns": ["pizzeria"],
+                    "values": [
+                        ["Chicago Pizza"],
+                        ["New York Pizza"],
+                        ["Pizza Hut"]
+                    ]
+                }
+            }
+        ]
+    }
+]
