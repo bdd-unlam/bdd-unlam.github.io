@@ -8,7 +8,7 @@ type: draft
 exercise: exercises.intro.json
 ---
 
-## Ejercicios introductirios de Álgebra Relacional
+## Ejercicios introductorios de Álgebra Relacional
 
 Resuelva los siguientes ejercicios utilizando el intérprete de AR embebido en cada ejercicio. Cada ejercicio contiene el resultado esperado; trate de conseguir el mismo resultado utilizando la cantidad de expresiones de AR que crea necesario.
 
