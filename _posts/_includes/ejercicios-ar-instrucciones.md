@@ -1,5 +1,3 @@
-#### Instrucciones
-
 Utilice los siguientes operadores soportados por el interprete. Las distintas sentencias pueden separarse utilizando un punto y coma (``;``), o un salto de línea.
 
 * Asignación: 
@@ -9,8 +7,8 @@ Utilice los siguientes operadores soportados por el interprete. Las distintas se
 * Renombrar:
   ``Ren[a,b](A)``
 * Proyección:
-  ``Proj[a,b](A)``
-* Selección:
+  ``Proj[a,b](A)`` o ``Proy[a,b](A)``
+* Selección (*):
   ``Sel[Condicion](A)``
 * Producto Cartesiano:
   ``A x B``
@@ -24,3 +22,26 @@ Utilice los siguientes operadores soportados por el interprete. Las distintas se
   ``A ∩ B``
 * Resta:
   ``A - B``
+
+(*) Las siguientes símbolos lógicos pueden utilizarse para construir las condiciones en la selección:
+
+* Igualdad: ``=``
+* Desigualdades: ``>``, ``<``, ``>=``, ``<=``, ``<>``
+* Operadoes: ``AND``, ``OR``, ``NOT``
+
+**Ejemplos de expresiones válidas:**
+
+```
+Proj[DNI](Sel[nombre = 'Luis' AND ciudad = 'Lujan'](Persona |X| Ciudad)
+```
+
+```
+Sel[Number>2 AND Number<5 OR Number >= 19 ](Number)
+```
+
+```
+P <- Product
+C <- Color
+PCA <- ProductColorAvailability
+Proj[ProductId](PCA) - Proj[ProductId]((Proj[ProductId,ColorId](P x C)-PCA))
+```

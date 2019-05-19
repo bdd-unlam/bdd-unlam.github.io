@@ -16,4 +16,8 @@ Resuelva los siguientes ejercicios utilizando el intérprete de AR embebido en c
 > La aplicación no valida que el resultado coincida con el esperado
 > La aplicación no guarda las expresiones utilizadas. Asegurese de guardar las expresiones utilizadas antes de salir de la página si desea conservarlas
 
+### Instrucciones
+
 {% include_relative _includes/ejercicios-ar-instrucciones.md %}
+
+## Enunciados
