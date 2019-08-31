@@ -281,10 +281,11 @@ Algunos jardines tienen un Contrato de Mantenimiento con la empresa. Estos contr
 
 ![Ejercicio 32](/images/practica-sql/ejercicio-32.png)
 
-Notas:
-* Este modelo de Base de Datos es sólo para pacientes ambulatorios de un determinado Hospital. Por ejemplo: un paciente que tiene una consulta con un cardiólogo, un paciente que se hace un tipo de estudio como por ejemplo un electrocardiograma, etc.
-* Las internaciones se manejan con otro sistema.
-* Las atenciones por Guardia también se manejan con otro sistema.
+>Notas:
+>
+>* Este modelo de Base de Datos es sólo para pacientes ambulatorios de un determinado Hospital. Por ejemplo: un paciente que tiene una consulta con un cardiólogo, un paciente que se hace un tipo de estudio como por ejemplo un electrocardiograma, etc.
+>* Las internaciones se manejan con otro sistema.
+>* Las atenciones por Guardia también se manejan con otro sistema.
 
 Realice las siguientes modificaciones del modelo dado. Se debe dibujar un nuevo DER completo que incluya todas las modificaciones.
 
