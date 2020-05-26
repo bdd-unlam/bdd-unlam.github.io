@@ -81,6 +81,11 @@ Cada fabricante puede trabajar con distintos distribuidores y cada distribuidor 
 
 Una cocina la componen una serie de muebles de cocina y cada mueble de cocina solo podrá formar parte de una única cocina. De una cocina nos interesa saber el número de muebles que la componen, así como cuantos de ellos hay de cada tipo.
 
+Cada cocina la puede vender un único distribuidor en una determinada fecha de venta, aunque cada distribuidor puede vender varias cocinas. Un distribuidor puede cederles cocinas a otros distribuidores para su posterior venta.
+Cada cocina la debe colocar al menos un instalador y el mismo puede instalar varias cocinas. De un instalador nos interesa saber su DNI, nombre, apellido, dirección, teléfono y la cantidad de cocinas que ha instalado.
+Cada cocina puede comprarla un cliente y el mismo cliente puede comprar varias cocinas. De un cliente nos interesa almacenar su DNI, nombre, dirección y teléfono
+
+
 #### 11. Sistemas Batch
 Un sistema ‘batch’ se trata de un conjunto de programas que tienen una determinada frecuencia de ejecución.
 
