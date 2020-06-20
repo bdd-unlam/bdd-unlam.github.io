@@ -43,7 +43,7 @@ layout: default
 <script src="/assets/ar/main.js" type="text/javascript"></script>
 <script>
     var contentDiv = document.getElementById("content");
-    main.buildHtmlAsync('{{page.exercise_path}}', '{{page.exercise}}').then(() => {
+    main.buildHtmlAsync('/assets/ar/', '{{page.exercise_path}}', '{{page.exercise}}').then(() => {
         //After document is built
     })
 </script>
