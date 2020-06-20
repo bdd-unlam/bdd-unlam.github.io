@@ -6,6 +6,7 @@ categories: practicas ar
 author: javi
 type: draft
 exercise: exercises.intro.json
+exercise_path: /assets/ar/intro/
 ---
 
 ## {{ page.title }}

@@ -6,6 +6,7 @@ categories: practicas ar
 author: javi
 type: draft
 exercise: exercises.json
+exercise_path: /assets/ar/
 ---
 
 ## Ejercicios de Álgebra Relacional
