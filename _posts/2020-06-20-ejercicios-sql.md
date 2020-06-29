@@ -1,6 +1,6 @@
 ---
 layout: ejercicios-ar
-title:  "Evaluación de Aprendizaje 2 - Ejercicios Álgebra Relacional"
+title:  "Test Ejercicios SQL"
 date:   2020-06-20 20:26:49 -0300
 categories: sql test
 author: javi
