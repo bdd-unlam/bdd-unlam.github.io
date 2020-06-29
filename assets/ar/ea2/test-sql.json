@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Ejercicio 1",
+        "isSQL": true,
+        "tables": [
+            {
+                "tableName": "Participa",
+                "definitionFile": "participa.csv"
+            },
+            {
+                "tableName": "Asiste",
+                "definitionFile": "asiste.csv"
+            },
+            {
+                "tableName": "Gusta",
+                "definitionFile": "gusta.csv"
+            },
+            {
+                "tableName": "Prefiere",
+                "definitionFile": "prefiere.csv"
+            }
+        ],
+        "statements": [
+            {
+                "title": "Listar las personas que asisten solamente a festivales que no son de su preferencia y que al mismo tiempo, en alguno de esos festivales, tocan al menos dos artistas que les gusta. Indique el DNI de la persona y el nombre del festival.",
+                "description": "",
+                "expectedResults": {
+                    "columns": ["DNI","nombreFestival"],
+                    "values": [
+                        ["5","F2"],
+                        ["7","F5"]
+                    ]
+                }
+            }
+        ]
+    }
+]
