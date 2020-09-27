@@ -1,7 +1,7 @@
 ---
 layout: practica
 title:  "Práctica de Ejercicios DER"
-date:   2017-08-26 09:30:49 -0300
+date:   2020-09-27 09:30:49 -0300
 categories: practicas der
 type: post
 ---
@@ -319,7 +319,7 @@ Realice un nuevo DER completo que incluya las siguientes modificaciones:
    |Barrio|Lote|Mes|Importe Couta|Fecha Vencimiento|Fecha Pago|
 |------|----|---|-------------|-----------------|----------|
 |15|70|2017-10|2300|12/10/2017|10/10/2017|
-|15|70|2017-11|2300|11/11/2018|10/11/2017|
+|15|70|2017-11|2300|11/11/2017|10/11/2017|
 |15|70|2017-12|2500|12/12/2017||
 
 1. Queremos registrar los servicios que posee cada Barrio Cerrado. Por ejemplo: red de agua corriente, red de agua de pozo, cloacas, teléfono, electricidad con postes, electricidad subterránea, red de gas natural, red de gas envasado, etc.
