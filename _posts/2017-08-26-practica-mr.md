@@ -1,7 +1,7 @@
 ---
 layout: practica
 title:  "Práctica de Ejercicios MR"
-date:   2017-08-26 15:22:49 -0300
+date:   2020-09-27 15:22:49 -0300
 categories: practicas mr
 type: post
 ---
@@ -42,18 +42,18 @@ Tener en cuenta las siguientes pautas:
 
 #### Ejercicio 3
 
-​Dado el siguiente esquema de base de datos relacional
+​Dado el siguiente esquema de base de datos relacional.
 
 <pre>
 PAIS           (<b>IdPais</b>​, Nombre)
-PARTICIPANTE   (<u><b>IdTipoDoc​</b></u>, <b>NúmeroDocumento​</b>, Nombre, Apellido, Dirección, Teléfono, <u>IdPais</u>, <u>IdHotel</u>, <u>NumeroSucursal</u>, TipoParticipante)
+PARTICIPANTE   (<u><b>IdTipoDoc​</b></u>, <b>NúmeroDocumento​</b>, Nombre, Apellido, Dirección, Teléfono, <u>IdPais, IdHotel</u>, <u>NumeroSucursal</u>, TipoParticipante)
 TIPO_DOCUMENTO (<b>IdTipoDoc​</b>, Descripción)
 JUGADOR        (<u><b>IdTipoDoc​</b></u>, <u><b>​NúmeroDocumento​</b></u>, Nivel)
 DISPUTA        (<u><b>IdTipoDoc​</b></u>, <u><b>​NúmeroDocumento​</b></u>, <u><b>​IdPartido​</b></u>, Color)
 ARBITRO        (<u><b>IdTipoDoc​</b></u>, <u><b>​NúmeroDocumento​</b></u>, Fecha_inicio_profesional)
 HOTEL          (<b>IdHotel​</b>, Razón Social, Cant_Sucursales)
-SALA           (<b>NúmSala​</b>, <u><b>NúmeroSucursal</b></u>, <u><b>IdHotel​</b></u>, Nombre, CantAsientos)
-PARTIDO        (<b>IdPartido​</b>, Duración, Fecha, <u>IdTipoDocArbitro</u>, <u>númeroDocumentoArbitro</u>, <u>NumeroSala</u>, <u>NúmeroSucursal</u>, <u>IdHotel</u>)
+SALA           (<b>NúmSala​</b>, <u><b>NúmeroSucursal, IdHotel​</b></u>, Nombre, CantAsientos)
+PARTIDO        (<b>IdPartido​</b>, Duración, Fecha, <u>IdTipoDocArbitro</u>, <u>númeroDocumentoArbitro</u>, <u>NúmeroSala</u>, <u>NúmeroSucursal</u>, <u>IdHotel</u>)
 JUGADA         (<b>NumeroJugada​</b>, <u><b>IdPartido​</b></u>, <u>IdTipoDoc</u>, <u>NúmeroDocumento</u>,
 Movimiento, Comentario)
 EMPLEADO       (<b>Legajo​</b>, Nombre, Apellido, FechaNacim, <u>LegSupervisor</u>)
@@ -91,7 +91,7 @@ TARIFA     (<b><u>codAeptoOrigen</u></b>, <b><u>codAeptoDestino</u></b>, precioC
 PASAJE     (<b><u>tipoDoc</u></b>, <b><u>nroDoc</u></b>, <b><u>nroVuelo</u></b>, <u>nroAsiento</u>, <u>fila</u>)
 </pre>
 
-A - btener al menos un diagrama ER del cual se haya podido derivar.
+A - Obtener al menos un diagrama ER del cual se haya podido derivar.
 
 B - En el diagrama incluir los siguientes cambios solicitados:
 
