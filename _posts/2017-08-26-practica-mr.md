@@ -46,13 +46,13 @@ Tener en cuenta las siguientes pautas:
 
 <pre>
 PAIS           (<b>IdPais</b>​, Nombre)
-PARTICIPANTE   (<u><b>IdTipoDoc​</b></u>, <b>NúmeroDocumento​</b>, Nombre, Apellido, Dirección, Teléfono, <u>IdPais, IdHotel</u>, <u>NumeroSucursal</u>, TipoParticipante)
+PARTICIPANTE   (<u><b>IdTipoDoc​</b></u>, <b>NúmeroDocumento​</b>, Nombre, Apellido, Dirección, Teléfono, <u>IdPais</u>, <u>IdHotel</u>, <u>NumeroSucursal</u>, TipoParticipante)
 TIPO_DOCUMENTO (<b>IdTipoDoc​</b>, Descripción)
 JUGADOR        (<u><b>IdTipoDoc​</b></u>, <u><b>​NúmeroDocumento​</b></u>, Nivel)
 DISPUTA        (<u><b>IdTipoDoc​</b></u>, <u><b>​NúmeroDocumento​</b></u>, <u><b>​IdPartido​</b></u>, Color)
 ARBITRO        (<u><b>IdTipoDoc​</b></u>, <u><b>​NúmeroDocumento​</b></u>, Fecha_inicio_profesional)
 HOTEL          (<b>IdHotel​</b>, Razón Social, Cant_Sucursales)
-SALA           (<b>NúmSala​</b>, <u><b>NúmeroSucursal, IdHotel​</b></u>, Nombre, CantAsientos)
+SALA           (<b>NúmSala​</b>, <u><b>NúmeroSucursal</b></u>, <u><b>IdHotel​</b></u>, Nombre, CantAsientos)
 PARTIDO        (<b>IdPartido​</b>, Duración, Fecha, <u>IdTipoDocArbitro</u>, <u>númeroDocumentoArbitro</u>, <u>NúmeroSala</u>, <u>NúmeroSucursal</u>, <u>IdHotel</u>)
 JUGADA         (<b>NumeroJugada​</b>, <u><b>IdPartido​</b></u>, <u>IdTipoDoc</u>, <u>NúmeroDocumento</u>,
 Movimiento, Comentario)
