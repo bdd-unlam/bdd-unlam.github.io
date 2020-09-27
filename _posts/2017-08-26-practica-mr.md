@@ -85,7 +85,7 @@ VUELO      (<b>nroVuelo</b>, fecha_salida, <u>codAeptoOrigen</u>, <u>codAeptoDes
 AEROPUERTO (<b>codAepto</b>, nombreaepto)
 PASAJERO   (<u><b>tipoDoc</b></u>, <b>nroDoc</b>, nombre, apellido)
 TIPO_DOC   (<b>tipoDoc</b>, descTipoDoc)
-UBICACIÓN  (<b>nroAsiento</b>, <b>fila</b>, <u>idClase</u>, <u>idAvion</u>)
+UBICACIÓN  (<b>nroAsiento</b>, <b>fila</b>, <u>idClase</u>, <b><u>idAvion</u></b>)
 CLASE      (<b>idClase</b>, descClase)
 TARIFA     (<b><u>codAeptoOrigen</u></b>, <b><u>codAeptoDestino</u></b>, precioClaseTurista, <u>fechaDesde</u>, fechaHasta)
 PASAJE     (<b><u>tipoDoc</u></b>, <b><u>nroDoc</u></b>, <b><u>nroVuelo</u></b>, <u>nroAsiento</u>, <u>fila</u>)
