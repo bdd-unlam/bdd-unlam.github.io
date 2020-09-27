@@ -54,7 +54,7 @@ F = { X → Y, XY → Z, Z → X, YZ → W, W → XY, W → V }
 
 #### Ejercicio 4
 
-Sea la relación ``R`` y el conjunto de DF ``F`` dados, demostrar que las dependencias ``A → G, BC → E, AB → E y ADG → C`` pertenecen a ``F+``, utilizando únicamente los axiomas de Armstrong
+Sea la relación ``R`` y el conjunto de DF ``F`` dados, demostrar que las dependencias ``A → G, BC → E, AB → E y ADG → C`` pertenecen a ``F+``, utilizando únicamente los axiomas de Armstrong.
 
 ```
 R (A,B,C,D,E,G)
@@ -63,7 +63,7 @@ F = { AD → E, C → G, GE → C, A → C, BC → A, B → D }
 
 #### Ejercicio 5
 
-Dado ``R (A, B, C, D)`` con ``F = { AB → C, C → D, D → A }``
+Dado ``R (A, B, C, D)`` con ``F = { AB → C, C → D, D → A }``.
 
 Identifique **TODAS** las superclaves de ``R`` que no son claves candidatas.
 
@@ -131,53 +131,53 @@ R6 (STU) F6 = { T → T, SU → U }
 
 Dado ``R (BDIOQS)`` con ``F = { S → D, I → B, IS → Q, B → O }``
 
-1. Encontrar TODAS las claves candidatas.
+1. Encontrar **TODAS** las claves candidatas.
 1. Si se descompone a ``R`` en ``R1 (ISQD)`` y ``R2 (IBO)``, diga si hubo pérdida de información. ¿En que forma normal se encuentra cada relación?
-1. Encontrar una descomposición de ``R`` en FNBC sin pérdida de información. ¿Se conservaron las dependencias funcionales?
+1. Encontrar una descomposición de ``R`` en **FNBC** sin pérdida de información. ¿Se conservaron las dependencias funcionales?
 
 #### Ejercicio 12
 
-Dado ``R (ABCDEF)`` con ``F = { A → BC, B → C, C → A, AD → E, AE → F, CD → E}``
+Dado ``R (ABCDEF)`` con ``F = { A → BC, B → C, C → A, AD → E, AE → F, CD → E}``:
 
-1. Encontrar TODAS las claves candidatas.
+1. Encontrar **TODAS** las claves candidatas.
 1. Encontrar un ``F`` mínimo.
 1. Decir en que forma normal se encuentra ``R``. ¿Por qué?
-1. Descomponer a ``R`` en FNBC usando el algoritmo visto en clase.
+1. Descomponer a ``R`` en **FNBC** usando el algoritmo visto en clase.
 
 #### Ejercicio 13
 
-Dado ``R (ABCDE)`` con ``F = { A → BC, CD → E, B → D, E → A}``
+Dado ``R (ABCDE)`` con ``F = { A → BC, CD → E, B → D, E → A}``:
 
-1. Hallar TODAS las claves candidatas.
+1. Hallar **TODAS** las claves candidatas.
 1. Decir si la descomposición de ``R`` en ``R1 (ABC)`` y ``R2 (CDE)`` es sin pérdida de información. Justificar.
-1. Encontrar una descomposición en FNBC.
+1. Encontrar una descomposición en **FNBC**.
 
 
 #### Ejercicio 14
 
-Dado ``R (ABCDEF)`` con ``F = { B → D, CF → A, DE → C, C → EF, F → D }``
+Dado ``R (ABCDEF)`` con ``F = { B → D, CF → A, DE → C, C → EF, F → D }``:
 
-1. Hallar TODAS las claves candidatas.
+1. Hallar **TODAS** las claves candidatas.
 1. Decir en que forma normal se encuentra ``R``.
-1. Hallar una descomposición en FNBC.
+1. Hallar una descomposición en **FNBC**.
 
 
 #### Ejercicio 15
 
-Dado ``R (ABCDE)`` con ``F = { A → BC, BC → A, BCD → E, E → C }``
+Dado ``R (ABCDE)`` con ``F = { A → BC, BC → A, BCD → E, E → C }``:
 
-1. Hallar TODAS las claves candidatas.
+1. Hallar **TODAS** las claves candidatas.
 1. Decir en que forma normal se encuentra ``R``.
-1. Hallar una descomposición en FNBC.
+1. Hallar una descomposición en **FNBC**.
 
 
 #### Ejercicio 16
 
-Dado ``R (ABCD)`` con ``F = { AB → D, C → D, AB → C, C → B }``
+Dado ``R (ABCD)`` con ``F = { AB → D, C → D, AB → C, C → B }``:
 
-1. Encontrar TODAS las claves candidatas.
-1. Encontrar una descomposición en 3FN. ¿Se conservan las dependencias?
-1. Encontrar una descomposición en FNBC. ¿Se conservan las dependencias?
+1. Encontrar **TODAS** las claves candidatas.
+1. Encontrar una descomposición en **3FN**. ¿Se conservan las dependencias?
+1. Encontrar una descomposición en **FNBC**. ¿Se conservan las dependencias?
 
 
 ####  Ejercicio 17
@@ -191,9 +191,7 @@ Indique si hay pérdida de información si descompone a ``R`` en:
 
 #### Ejercicio 18
 
-Dado ``R (ABCDE)`` con ``F = { AB → D, DE → B, A → C, BC → E }``
-
-Utilice el Teorema de Heath para verificar si la siguiente descomposición es sin pérdida de información.
+Dado ``R (ABCDE)`` con ``F = { AB → D, DE → B, A → C, BC → E }``. Utilice el Teorema de Heath para verificar si la siguiente descomposición es sin pérdida de información:
 
 ```
 R1 (ABED), 
@@ -202,26 +200,26 @@ R2 (ABC)
 
 #### Ejercicio 19
 
-Demuestre que cualquier relación de 2 elementos se encuentra en FNBC:
+Demuestre que cualquier relación de 2 elementos se encuentra en FNBC.
 
-Por ejemplo: ``R (A, B)``
+Por ejemplo: ``R (A, B)``.
 
 #### Ejercicio 20
 
-Dado ``R (A, B, C, D, E, F)`` con ``F = { AB → C, C → D, ABC → E, F → A, AB → FD, A → F }''
+Dado ``R (A, B, C, D, E, F)`` con ``F = { AB → C, C → D, ABC → E, F → A, AB → FD, A → F }'':
 
 1. Obtenga un cubrimiento minimal.
-1. Normalizar a 3 FN.
+1. Normalizar a **3FN**.
 1. Justificar si hubo pérdida de información y/o pérdida de dependencias funcionales.
 
 #### Ejercicio 21
 
-Dado ``R (A B C D E F G)`` con ``F = { AB → C, BC → DE, D → A, AE → C, DE → F, EF → D, A→G }`` Indique:
+Dado ``R (A B C D E F G)`` con ``F = { AB → C, BC → DE, D → A, AE → C, DE → F, EF → D, A→G }`` indique:
 
 1. Las claves candidatas.
-1. En qué forma normal se encuentra
-1. Descomponga en 3FN utilizando el algoritmo correspondiente.
-1. ¿Es también una descomposición en FNBC?
+1. En qué forma normal se encuentra.
+1. Descomponga en **3FN** utilizando el algoritmo correspondiente.
+1. ¿Es también una descomposición en **FNBC**?
 
 #### Ejercicio 22
 
@@ -243,7 +241,7 @@ Se pide:
 
 1. Indicar las dependencias funcionales del esquema ``Encuesta``.
 1. Justificar en qué forma normal se encuentra la relación.
-1. Normalizar a FNBC en el caso que fuese necesario. Indicar si hubo pérdida de dependencias.
+1. Normalizar a **FNBC** en el caso que fuese necesario. Indicar si hubo pérdida de dependencias.
 
 #### Ejercicio 23
 
@@ -253,7 +251,7 @@ Dado el siguiente esquema de relación:
 Reservas(ciudad, teatro, título)
 ```
 
-con  
+con:
 
 {% raw %}
 ```
