@@ -211,7 +211,8 @@ Por ejemplo: ``R (A, B)``
 Dado ``R (A, B, C, D, E, F)`` con ``F = { AB → C, C → D, ABC → E, F → A, AB → FD, A → F }''
 
 1. Obtenga un cubrimiento minimal.
-1. Normalizar a 3 FN
+1. Normalizar a 3 FN.
+1. Justificar si hubo pérdida de información y/o pérdida de dependencias funcionales.
 
 #### Ejercicio 21
 
@@ -242,7 +243,7 @@ Se pide:
 
 1. Indicar las dependencias funcionales del esquema ``Encuesta``.
 1. Justificar en qué forma normal se encuentra la relación.
-1. Normalizar a FNBC en el caso que fuese necesario.
+1. Normalizar a FNBC en el caso que fuese necesario. Indicar si hubo pérdida de dependencias.
 
 #### Ejercicio 23
 
