@@ -1,0 +1,69 @@
+[
+    {
+        "title": "Ejercicio 1",
+        "tables": [
+            {
+                "tableName": "Persona",
+                "definitionFile": "characters.csv"
+            },
+            {
+                "tableName": "Progenitor",
+                "definitionFile": "ancestors.csv"
+            }
+        ],
+        "statements": [
+            {
+                "title": "Devolver el Id, Nombre y Sexo de todos los hijos del rey loco (Aerys II \"The Mad King\" Targaryen)",
+                "description": "",
+                "expectedResults": {
+                    "columns": ["Id","Nombre","Sexo"],
+                    "values": [
+                        ["3","Rhaegar Targaryen","M"],
+                        ["4","Aegon Targaryen","M"],
+                        ["5","Shaena Targaryen","F"],
+                        ["6","Viserys \"The Beggar King\" Targaryen","M"],
+                        ["7","Daenerys \"Stormborn\" Targaryen","F"]
+                    ]
+                }
+            },
+            {
+                "title": "Devolver el Id, Nombre y Sexo de todos los hermanos (incluyendo medio hermanos) de Joffrey Baratheon",
+                "description": "",
+                "expectedResults": {
+                    "columns": ["Id","Nombre","Sexo"],
+                    "values": [
+                        ["2","Joffrey Baratheon","M"],
+                        ["3","Myrcella Baratheon","F"],
+                        ["4","Tommen Baratheon","M"],
+                        ["9","Edric Storm","M"],
+                        ["14","Gendry","M"]
+                    ]
+                }
+            },
+            {
+                "title": "Devolver el Id, Nombre y Sexo de todos los hijos del matrimonio entre Catelyn Tully y Eddard Stark",
+                "description": "",
+                "expectedResults": {
+                    "columns": ["Id","Nombre","Sexo"],
+                    "values": [
+                        ["1","Sansa Stark","F"],
+                        ["6","Robb Stark","M"],
+                        ["7","Arya Stark","F"],
+                        ["8","Rickon Stark","M"],
+                        ["4","Brandon Stark","M"]
+                    ]
+                }
+            },
+            {
+                "title": "Devolver el Id, Nombre y Sexo de todos los hijos con un solo progenitor (resultado pendiente)",
+                "description": "",
+                "expectedResults": {
+                    "columns": ["Id","Nombre","Sexo"],
+                    "values": [
+
+                    ]
+                }
+            }
+        ]
+    }
+]
