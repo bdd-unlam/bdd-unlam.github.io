@@ -1,49 +1,49 @@
-*Familia,*Id,Nombre,Sexo
-BAR,1,Robert Baratheon,M
-BAR,2,Joffrey Baratheon,M
-BAR,3,Myrcella Baratheon,F
-BAR,4,Tommen Baratheon,M
-BAR,5,Ormund Baratheon,M
-BAR,6,Steffon Baratheon,M
-BAR,7,Cassana Estermont,F
-BAR,8,Delena Florent,F
-BAR,9,Edric Storm,M
-BAR,10,Stannis Baratheon,M
-BAR,11,Selyse Florent,F
-BAR,12,Shireen Baratheon,F
-BAR,13,Renly Baratheon,M
-LAN,1,Tytos Lannister,M
-LAN,2,Jeyne Marbrand,F
-LAN,3,Joanna,F
-LAN,4,Tywin Lannister,M
-LAN,5,Emmon Frey,M
-LAN,6,Genna Lannister,F
-LAN,7,Tygett Lannister,M
-LAN,8,Darlessa Marbrand,F
-LAN,9,Gerion Lannister,M
-LAN,10,Briony,F
-LAN,11,Cersei Lannister,F
-LAN,12,"Jaime ""The Kingslayer"" Lannister",M
-LAN,13,Tysha,F
-LAN,14,"Tyrion ""The Imp"" Lannister",M
-STK,1,Sansa Stark,F
-STK,2,Rickard Stark,M
-STK,3,Lyarra,F
-STK,4,Brandon Stark,M
-STK,5,Eddard Stark,M
-STK,6,Robb Stark,M
-STK,7,Arya Stark,F
-STK,8,Rickon Stark,M
-STK,9,Jon Snow,M
-TAR,1,"Aerys II ""The Mad King"" Targaryen",M
-TAR,2,Rhaelle Targaryen,F
-TAR,3,Rhaegar Targaryen,M
-TAR,4,Aegon Targaryen,M
-TAR,5,Shaena Targaryen,F
-TAR,6,"Viserys ""The Beggar King"" Targaryen",M
-TAR,7,"Daenerys ""Stormborn"" Targaryen",F
-TUL,1,Catelyn Tully,F
-TYR,1,Margaery Tyrel,F
-STK,10,Lyanna Stark,F
-STK,11,Benjen Stark,M
-BAR,14,Gendry,M
+*Familia,*Id,Nombre,Sexo,Alias
+BAR,1,Robert Baratheon,M,
+BAR,2,Joffrey Baratheon,M,
+BAR,3,Myrcella Baratheon,F,
+BAR,4,Tommen Baratheon,M,
+BAR,5,Ormund Baratheon,M,
+BAR,6,Steffon Baratheon,M,
+BAR,7,Cassana Estermont,F,
+BAR,8,Delena Florent,F,
+BAR,9,Edric Storm,M,
+BAR,10,Stannis Baratheon,M,
+BAR,11,Selyse Florent,F,
+BAR,12,Shireen Baratheon,F,
+BAR,13,Renly Baratheon,M,
+LAN,1,Tytos Lannister,M,
+LAN,2,Jeyne Marbrand,F,
+LAN,3,Joanna,F,
+LAN,4,Tywin Lannister,M,
+LAN,5,Emmon Frey,M,
+LAN,6,Genna Lannister,F,
+LAN,7,Tygett Lannister,M,
+LAN,8,Darlessa Marbrand,F,
+LAN,9,Gerion Lannister,M,
+LAN,10,Briony,F,
+LAN,11,Cersei Lannister,F,
+LAN,12,Jaime Lannister,M,The Kingslayer
+LAN,13,Tysha,F,
+LAN,14,Tyrion Lannister,M,The Imp
+STK,1,Sansa Stark,F,
+STK,2,Rickard Stark,M,
+STK,3,Lyarra,F,
+STK,4,Brandon Stark,M,
+STK,5,Eddard Stark,M,
+STK,6,Robb Stark,M,
+STK,7,Arya Stark,F,
+STK,8,Rickon Stark,M,
+STK,9,Jon Snow,M,
+TAR,1,Aerys II Targaryen,M,The Mad King
+TAR,2,Rhaelle Targaryen,F,
+TAR,3,Rhaegar Targaryen,M,
+TAR,4,Aegon Targaryen,M,
+TAR,5,Shaena Targaryen,F,
+TAR,6,Viserys Targaryen,M,The Beggar King
+TAR,7,Daenerys Targaryen,F,Stormborn
+TUL,1,Catelyn Tully,F,
+TYR,1,Margaery Tyrel,F,
+STK,10,Lyanna Stark,F,
+STK,11,Benjen Stark,M,
+BAR,14,Gendry,M,

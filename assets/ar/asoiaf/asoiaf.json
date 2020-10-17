@@ -13,7 +13,7 @@
         ],
         "statements": [
             {
-                "title": "Devolver el Id, Nombre y Sexo de todos los hijos del rey loco (Aerys II \"The Mad King\" Targaryen)",
+                "title": "Devolver el Id, Nombre y Sexo de todos los hijos del rey loco (The Mad King)",
                 "description": "",
                 "expectedResults": {
                     "columns": ["Id","Nombre","Sexo"],
@@ -21,8 +21,8 @@
                         ["3","Rhaegar Targaryen","M"],
                         ["4","Aegon Targaryen","M"],
                         ["5","Shaena Targaryen","F"],
-                        ["6","Viserys \"The Beggar King\" Targaryen","M"],
-                        ["7","Daenerys \"Stormborn\" Targaryen","F"]
+                        ["6","Viserys Targaryen","M"],
+                        ["7","Daenerys Targaryen","F"]
                     ]
                 }
             },
@@ -55,15 +55,54 @@
                 }
             },
             {
-                "title": "Devolver el Id, Nombre y Sexo de todos los hijos con un solo progenitor (resultado pendiente)",
+                "title": "Devolver el Id, Nombre y Sexo de todos los hijos con un solo progenitor",
                 "description": "",
                 "expectedResults": {
                     "columns": ["Id","Nombre","Sexo"],
                     "values": [
-
+                        ["9","Jon Snow","M"],
+                        ["14","Gendry","M"]
                     ]
                 }
-            }
+            },
+            {
+                "title": "Devolver el Id, Nombre y Sexo de todos los personajes y sus madres",
+                "description": "",
+                "expectedResults": {
+                    "columns": ["Familia","Id","Nombre","Sexo","NombreMadre"],
+                    "values": [
+                        ["BAR","1","Robert Baratheon","M","Cassana Estermont"],
+                        ["BAR","2","Joffrey Baratheon","M","Cersei Lannister"],
+                        ["BAR","3","Myrcella Baratheon","F","Cersei Lannister"],
+                        ["BAR","4","Tommen Baratheon","M","Cersei Lannister"],
+                        ["BAR","6","Steffon Baratheon","M","Rhaelle Targaryen"],
+                        ["BAR","9","Edric Storm","M","Delena Florent"],
+                        ["BAR","10","Stannis Baratheon","M","Cassana Estermont"],
+                        ["BAR","12","Shireen Baratheon","F","Selyse Florent"],
+                        ["BAR","13","Renly Baratheon","M","Cassana Estermont"],
+                        ["LAN","4","Tywin Lannister","M","Jeyne Marbrand"],
+                        ["LAN","6","Genna Lannister","F","Jeyne Marbrand"],
+                        ["LAN","7","Tygett Lannister","M","Jeyne Marbrand"],
+                        ["LAN","9","Gerion Lannister","M","Jeyne Marbrand"],
+                        ["LAN","11","Cersei Lannister","F","Joanna"],
+                        ["LAN","12","Jaime Lannister","M","Joanna"],
+                        ["LAN","14","Tyrion Lannister","M","Joanna"],
+                        ["STK","1","Sansa Stark","F","Catelyn Tully"],
+                        ["STK","4","Brandon Stark","M","Catelyn Tully"],
+                        ["STK","5","Eddard Stark","M","Lyarra"],
+                        ["STK","6","Robb Stark","M","Catelyn Tully"],
+                        ["STK","7","Arya Stark","F","Catelyn Tully"],
+                        ["STK","8","Rickon Stark","M","Catelyn Tully"],
+                        ["STK","10","Lyanna Stark","F","Lyarra"],
+                        ["STK","11","Benjen Stark","M","Lyarra"],
+                        ["TAR","3","Rhaegar Targaryen","M","Rhaelle Targaryen"],
+                        ["TAR","4","Aegon Targaryen","M","Rhaelle Targaryen"],
+                        ["TAR","5","Shaena Targaryen","F","Rhaelle Targaryen"],
+                        ["TAR","6","Viserys Targaryen","M","Rhaelle Targaryen"],
+                        ["TAR","7","Daenerys Targaryen","F","Rhaelle Targaryen"]
+                    ]
+                }
+            }            
         ]
     }
 ]
