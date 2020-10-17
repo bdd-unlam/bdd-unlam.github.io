@@ -1,7 +1,7 @@
 ---
 layout: practica
 title:  "Práctica de Ejercicios DER"
-date:   2017-08-26 09:30:49 -0300
+date:   2020-09-27 09:30:49 -0300
 categories: practicas der
 type: post
 ---
@@ -80,6 +80,11 @@ De los muebles de cocina deseamos guardar un código, color, dimensiones (alto *
 Cada fabricante puede trabajar con distintos distribuidores y cada distribuidor trabaja al menos con un fabricante. De un distribuidor deseamos almacenar un código, Razón Social, dirección y número de teléfono.
 
 Una cocina la componen una serie de muebles de cocina y cada mueble de cocina solo podrá formar parte de una única cocina. De una cocina nos interesa saber el número de muebles que la componen, así como cuantos de ellos hay de cada tipo.
+
+Cada cocina la puede vender un único distribuidor en una determinada fecha de venta, aunque cada distribuidor puede vender varias cocinas. Un distribuidor puede cederles cocinas a otros distribuidores para su posterior venta.
+Cada cocina la debe colocar al menos un instalador y el mismo puede instalar varias cocinas. De un instalador nos interesa saber su DNI, nombre, apellido, dirección, teléfono y la cantidad de cocinas que ha instalado.
+Cada cocina puede comprarla un cliente y el mismo cliente puede comprar varias cocinas. De un cliente nos interesa almacenar su DNI, nombre, dirección y teléfono
+
 
 #### 11. Sistemas Batch
 Un sistema ‘batch’ se trata de un conjunto de programas que tienen una determinada frecuencia de ejecución.
@@ -314,7 +319,7 @@ Realice un nuevo DER completo que incluya las siguientes modificaciones:
    |Barrio|Lote|Mes|Importe Couta|Fecha Vencimiento|Fecha Pago|
 |------|----|---|-------------|-----------------|----------|
 |15|70|2017-10|2300|12/10/2017|10/10/2017|
-|15|70|2017-11|2300|11/11/2018|10/11/2017|
+|15|70|2017-11|2300|11/11/2017|10/11/2017|
 |15|70|2017-12|2500|12/12/2017||
 
 1. Queremos registrar los servicios que posee cada Barrio Cerrado. Por ejemplo: red de agua corriente, red de agua de pozo, cloacas, teléfono, electricidad con postes, electricidad subterránea, red de gas natural, red de gas envasado, etc.
