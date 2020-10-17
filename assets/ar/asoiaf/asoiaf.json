@@ -13,60 +13,60 @@
         ],
         "statements": [
             {
-                "title": "Devolver el Id, Nombre y Sexo de todos los hijos del rey loco (The Mad King)",
+                "title": "1. Devolver el Id, Nombre y Sexo de todos los hijos del rey loco (The Mad King)",
                 "description": "",
                 "expectedResults": {
-                    "columns": ["Id","Nombre","Sexo"],
+                    "columns": ["Familia","Id","Nombre","Sexo"],
                     "values": [
-                        ["3","Rhaegar Targaryen","M"],
-                        ["4","Aegon Targaryen","M"],
-                        ["5","Shaena Targaryen","F"],
-                        ["6","Viserys Targaryen","M"],
-                        ["7","Daenerys Targaryen","F"]
+                        ["TAR","3","Rhaegar Targaryen","M"],
+                        ["TAR","4","Aegon Targaryen","M"],
+                        ["TAR","5","Shaena Targaryen","F"],
+                        ["TAR","6","Viserys Targaryen","M"],
+                        ["TAR","7","Daenerys Targaryen","F"]
                     ]
                 }
             },
             {
-                "title": "Devolver el Id, Nombre y Sexo de todos los hermanos (incluyendo medio hermanos) de Joffrey Baratheon",
+                "title": "2. Devolver el Id, Nombre y Sexo de todos los hermanos (incluyendo medio hermanos) de Joffrey Baratheon",
                 "description": "",
                 "expectedResults": {
-                    "columns": ["Id","Nombre","Sexo"],
+                    "columns": ["Familia","Id","Nombre","Sexo"],
                     "values": [
-                        ["2","Joffrey Baratheon","M"],
-                        ["3","Myrcella Baratheon","F"],
-                        ["4","Tommen Baratheon","M"],
-                        ["9","Edric Storm","M"],
-                        ["14","Gendry","M"]
+                        ["BAR","2","Joffrey Baratheon","M"],
+                        ["BAR","3","Myrcella Baratheon","F"],
+                        ["BAR","4","Tommen Baratheon","M"],
+                        ["BAR","9","Edric Storm","M"],
+                        ["BAR","14","Gendry","M"]
                     ]
                 }
             },
             {
-                "title": "Devolver el Id, Nombre y Sexo de todos los hijos del matrimonio entre Catelyn Tully y Eddard Stark",
+                "title": "3. Devolver el Id, Nombre y Sexo de todos los hijos del matrimonio entre Catelyn Tully y Eddard Stark",
                 "description": "",
                 "expectedResults": {
-                    "columns": ["Id","Nombre","Sexo"],
+                    "columns": ["Familia","Id","Nombre","Sexo"],
                     "values": [
-                        ["1","Sansa Stark","F"],
-                        ["6","Robb Stark","M"],
-                        ["7","Arya Stark","F"],
-                        ["8","Rickon Stark","M"],
-                        ["4","Brandon Stark","M"]
+                        ["STK","1","Sansa Stark","F"],
+                        ["STK","4","Brandon Stark","M"],
+                        ["STK","6","Robb Stark","M"],
+                        ["STK","7","Arya Stark","F"],
+                        ["STK","8","Rickon Stark","M"]
                     ]
                 }
             },
             {
-                "title": "Devolver el Id, Nombre y Sexo de todos los hijos con un solo progenitor",
+                "title": "4. Devolver el Id, Nombre y Sexo de todos los hijos con un solo progenitor",
                 "description": "",
                 "expectedResults": {
-                    "columns": ["Id","Nombre","Sexo"],
+                    "columns": ["Familia","Id","Nombre","Sexo"],
                     "values": [
-                        ["9","Jon Snow","M"],
-                        ["14","Gendry","M"]
+                        ["BAR","14","Gendry","M"],
+                        ["STK","9","Jon Snow","M"]
                     ]
                 }
             },
             {
-                "title": "Devolver el Id, Nombre y Sexo de todos los personajes y sus madres",
+                "title": "5. Devolver el Id, Nombre y Sexo de todos los personajes y sus madres",
                 "description": "",
                 "expectedResults": {
                     "columns": ["Familia","Id","Nombre","Sexo","NombreMadre"],
@@ -102,7 +102,22 @@
                         ["TAR","7","Daenerys Targaryen","F","Rhaelle Targaryen"]
                     ]
                 }
-            }            
+            },
+            {
+                "title": "6. Devolver el Id, Nombre y Sexo de todos los nietos de Steffon Baratheon",
+                "description": "",
+                "expectedResults": {
+                    "columns": ["Familia","Id","Nombre","Sexo"],
+                    "values": [
+                        ["BAR","2","Joffrey Baratheon","M"],
+                        ["BAR","3","Myrcella Baratheon","F"],
+                        ["BAR","4","Tommen Baratheon","M"],
+                        ["BAR","9","Edric Storm","M"],
+                        ["BAR","12","Shireen Baratheon","F"],
+                        ["BAR","14","Gendry","M"]
+                    ]
+                }
+            }      
         ]
     }
 ]
